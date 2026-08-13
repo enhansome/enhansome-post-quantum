@@ -1,1 +1,400 @@
-# enhansome-post-quantum
+# Awesome Post-Quantum with stars
+
+A curated list of resources about post-quantum cryptography.
+
+To contribute, please file a PR. Please list items alphabetically.
+
+If you notice errors or obsolete content, please file PR or an Issue.
+
+## U.S. standards and guidelines
+
+Standardization projects:
+
+* [NIST Post-Quantum Cryptography](https://csrc.nist.gov/Projects/post-quantum-cryptography)
+* [PQC Additional Digital Signature Schemes](https://csrc.nist.gov/projects/pqc-dig-sig) (in progress,
+  round 3)
+
+### NIST standard algorithms
+
+KEMs (encryption, key agreement):
+
+* [HQC](https://www.pqc-hqc.org/) - Selected in 2025, code-based
+  * [HQC official software](https://pqc-hqc.org/implementation.html)
+* [ML-KEM (Kyber)](https://pq-crystals.org/kyber) - Selected in 2022, lattice-based
+  * [FIPS 203: Module-Lattice-Based Key-Encapsulation Mechanism Standard (ML-KEM)](https://csrc.nist.gov/pubs/fips/203/final)
+  * [Kyber official software](https://pq-crystals.org/kyber/software.shtml)
+
+Signature schemes:
+
+* [FN-DSA (Falcon)](https://falcon-sign.info/) - Selected in 2022, lattice-based
+  * Presentation [FIPS 206 Status Update](https://csrc.nist.gov/csrc/media/presentations/2025/fips-206-fn-dsa-\(falcon\)/images-media/fips_206-perlner_2.1.pdf)
+  * Presentation [Falcon, Towards FN-DSA](https://csrc.nist.gov/csrc/media/Presentations/2024/falcon/images-media/prest-falcon-pqc2024.pdf)
+  * [Falcon official software](https://falcon-sign.info/impl/falcon.h.html)
+* [ML-DSA (Dilithium)](https://pq-crystals.org/dilithium/) - Selected in 2022, lattice-based
+  * [FIPS 204: Module-Lattice-Based Digital Signature Standard (ML-DSA)](https://csrc.nist.gov/pubs/fips/204/final)
+  * [Dilithium official software](https://pq-crystals.org/dilithium/software.shtml)
+* [SLH-DSA (SPHINCS+)](https://sphincs.org/) - Selected in 2022, hash-based
+  * [FIPS 205: Stateless Hash-Based Digital Signature Standard (SLH-DSA)](https://csrc.nist.gov/pubs/fips/205/final)
+  * [SPHINCS+ official software](https://sphincs.org/software.html)
+
+### Migration guidelines
+
+* [CISA Quantum-Readiness: Migration to Post-Quantum Cryptography](https://www.cisa.gov/sites/default/files/2023-08/Quantum%20Readiness_Final_CLEAR_508c%20%283%29.pdf)
+* [CISA Strategy for Migrating to Automated Post-Quantum Cryptography Discovery and Inventory Tools](https://www.cisa.gov/sites/default/files/2024-09/Strategy-for-Migrating-to-Automated-PQC-Discovery-and-Inventory-Tools.pdf)
+* [DHS PQC approach and roadmap](https://www.dhs.gov/quantum)
+* [NIST and NCCoE's Migration to PQC](https://www.nccoe.nist.gov/sites/default/files/2022-07/pqc-migration-project-description-final.pdf)
+* [NIST Migration to Post-Quantum Cryptography](https://www.nccoe.nist.gov/crypto-agility-considerations-migrating-post-quantum-cryptographic-algorithms)
+* [NSA PQC FAQ](https://media.defense.gov/2021/Aug/04/2002821837/-1/-1/1/Quantum_FAQs_20210804.PDF)
+* [Quantum Computing Cybersecurity Preparedness Act](https://www.congress.gov/bill/117th-congress/house-bill/7535/text)
+
+## Other national initiatives
+
+* [GSMA: Post Quantum Government Initiatives by Country and Region](https://www.gsma.com/newsroom/post-quantum-government-initiatives-by-country-and-region)
+* [ISO/IEC JTC 1/SC 27 Working Group on PQC Standardization](https://www.iso.org/committee/45306.html)
+
+Australia:
+
+* [ASD: Planning for post-quantum cryptography ](https://www.cyber.gov.au/business-government/secure-design/quantum/planning-for-post-quantum-cryptography)
+
+Canada:
+
+* [Communications Security Establishment (CSE) Quantum Threat Assessments](https://www.cse-cst.gc.ca/)
+* [Migrating the Government of Canada to Post-Quantum Cryptography: Security Policy Implementation Notice](https://www.canada.ca/en/government/system/digital-government/policies-standards/spin/migrating-government-canada-post-quantum-cryptography.html)
+* [Roadmap for the migration to post-quantum cryptography for the Government of Canada (ITSM.40.001)](https://www.cyber.gc.ca/en/guidance/roadmap-migration-post-quantum-cryptography-government-canada-itsm40001)
+
+China:
+
+* [Next-Generation Commercial Cryptographic Algorithms Program (NGCC)](https://www.niccs.org.cn/en/)
+
+Czech Republic:
+
+* [Minimum Requirements for Cryptographic Algorithms](https://nukib.gov.cz/download/publications_en/Minimum%20Requirements%20for%20Cryptographic%20Algorithms.pdf)
+* [Quantum Threat and Quantum Resistant Cryptography](https://nukib.gov.cz/download/publications_en/Annex%20to%20the%20document_Minimum%20Requirements%20for%20Cryptographic%20Algorithms.pdf)
+
+EU:
+
+* [A Coordinated Implementation Roadmap for the Transition to Post-Quantum Cryptography](https://digital-strategy.ec.europa.eu/en/library/coordinated-implementation-roadmap-transition-post-quantum-cryptography)
+* [ENISA Post-Quantum Cryptography Reports](https://www.enisa.europa.eu/topics/cryptography)
+* [ETSI Quantum-Safe Cryptography Specification Group](https://www.etsi.org/committee/1430-qsc)
+
+France:
+
+* [ANSSI](https://cyber.gouv.fr/en/technological-and-cybersecurity-challenges/post-quantum-cryptography/)
+  initiatives and publications
+* [ANSSI views on the Post-Quantum Cryptography transition](https://cyber.gouv.fr/en/publications/follow-position-paper-post-quantum-cryptography)
+
+G7:
+
+* [G7 Cyber Expert Group Statement on Advancing a Coordinated Roadmap for the Transition to Post-Quantum Cryptography in the Financial Sector](https://www.gov.uk/government/publications/advancing-a-coordinated-roadmap-for-the-transition-to-post-quantum-cryptography-in-the-financial-sector)
+* [G7 Cybersecurity Working Group Statement on preparing for a post-quantum cryptography migration](https://www.cyber.gc.ca/en/news-events/g7-cybersecurity-working-group-statement-preparing-post-quantum-cryptography-migration)
+
+Germany:
+
+* [BSI TR-02102 Cryptographic Mechanisms](https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr02102/tr02102_node.html)
+* [BSI TR-02102-1 "Cryptographic Mechanisms: Recommendations and Key Lengths"](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-1.html)
+
+India:
+
+* [Implementation of Quantum Safe Ecosystem in India](https://dst.gov.in/sites/default/files/Report_TaskForce_PQMigration_4Feb26%20%28v1%29.pdf)
+
+Israel:
+
+* [Post Quantum Cryptography-ל היערכות](https://www.gov.il/BlobFolder/reports/alert_1855/he/ALERT-CERT-IL-W-1855.pdf)
+
+Japan:
+
+* [Guidelines](https://www.cryptrec.go.jp/report/cryptrec-gl-2007-2024.pdf) (including PQC) by [CRYPTREC](https://www.cryptrec.go.jp/en/)
+
+Malaysia:
+
+* [Post-Quantum Cryptography Migration Framework](https://www.cybersecurity.my/portal-main/services/post-quantum-overview)
+
+Netherlands:
+
+* [AIVD's PQC Migration Handbook](https://english.aivd.nl/documents/2024/12/3/the-pqc-migration-handbook)
+
+Russia:
+
+* [TC26 standards committee announces potential standards](https://tc26.ru/news/novosti-kriptografii/v-rossii-razrabotan-kriptograficheskiy-mekhanizm-sposobnyy-vyderzhivat-ataki-kvantovykh-kompyuterov.html):
+  * [Кодиеум/Codium](https://ruscrypto.ru/resource/archive/rc2024/files/05_vysotskaya_chizhov.pdf) - KEM, code-based
+  * [Шиповник/Shipovnik](https://ruscrypto.ru/resource/archive/rc2024/files/05_vysotskaya_das.pdf) - Signature, code-based
+
+Singapore:
+
+* [MAS Advisory on Addressing the Cybersecurity Risks Associated with Quantum](https://www.mas.gov.sg/-/media/mas-media-library/regulation/circulars/trpd/mas-quantum-advisory/mas-quantum-advisory.pdf)
+* [CSA Quantum-Safe Hanbook and Quantum Readiness Index](https://www.csa.gov.sg/resources/publications/quantum-safe-handbook-and-quantum-readiness-index/)
+
+South Korea:
+
+* [KpqC Competitions and Algorithms](https://kpqc.or.kr/)
+* Standardized algorithms:
+  * [NTRU+](https://www.kpqc.or.kr/images/pdf/NTRU+.pdf) - KEM, lattice-based
+  * [SMAUG-T](https://kpqc.cryptolab.co.kr/smaug-t) - KEM, lattice-based
+  * [AIMer](https://www.kpqc.or.kr/images/pdf/AIMer.pdf) - Signature, MPC-in-the-head
+  * [HAETAE](https://kpqc.cryptolab.co.kr/haetae) - Signature, lattice-based
+
+Spain:
+
+* [CCN Recommendations for a safe post-quantum transition](https://www.ccn.cni.es/index.php/es/docman/documentos-publicos/boletines-pytec/499-ccn-tec-009-recomendaciones-transicion-postcuantica-segura-english/file)
+
+Switzerland:
+
+* [FINMA Guidance 05/2026: Quantum Computing](https://www.finma.ch/en/~/media/finma/dokumente/dokumentencenter/myfinma/4dokumentation/finma-aufsichtsmitteilungen/20260709-finma-aufsichtsmitteilung-05-2026.pdf)
+
+United Kingdom:
+
+* [NCSC's Timelines for migration to post-quantum cryptography](https://www.ncsc.gov.uk/guidance/pqc-migration-timelines)
+* [NCSC's Next steps in preparing for post-quantum cryptography](https://www.ncsc.gov.uk/whitepaper/next-steps-preparing-for-post-quantum-cryptography)
+
+## IETF standards and proposals
+
+RFCs:
+
+* RFC 8391: [XMSS: eXtended Merkle Signature Scheme](https://datatracker.ietf.org/doc/html/rfc8391)
+* RFC 8554: [Leighton-Micali Hash-Based Signatures](https://datatracker.ietf.org/doc/html/rfc8554)
+* RFC 8784: [Mixing Preshared Keys in the Internet Key Exchange Protocol Version 2 (IKEv2) for Post-quantum Security](https://datatracker.ietf.org/doc/html/rfc8784)
+* RFC 9370 [Multiple Key Exchanges in the Internet Key Exchange Protocol Version 2 (IKEv2)](https://datatracker.ietf.org/doc/html/rfc9370)
+* RFC 9881: [Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Module-Lattice-Based Digital Signature Algorithm (ML-DSA)](https://datatracker.ietf.org/doc/html/rfc9881)
+* RFC 9935: [Internet X.509 Public Key Infrastructure - Algorithm Identifiers for the Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM) ](https://datatracker.ietf.org/doc/rfc9935/)
+* RFC 9794: [Terminology for Post-Quantum Traditional Hybrid Schemes ](https://www.rfc-editor.org/rfc/rfc9794.html)
+* RFC 9941: [Secure Shell (SSH) Key Exchange Method Using Hybrid Streamlined NTRU Prime sntrup761 and X25519 with SHA-512: sntrup761x25519-sha512](https://www.rfc-editor.org/rfc/rfc9941.html)
+
+Internet-Drafts:
+
+* I-D [Composite ML-DSA for use in X.509 Public Key Infrastructure](https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-sigs/)
+* I-D [Downgrade Prevention for the Internet Key Exchange Protocol Version 2 (IKEv2) ](https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-downgrade-prevention/)
+* I-D [Framework to Integrate Post-quantum Key Exchanges into Internet Key Exchange Protocol Version 2 (IKEv2)](https://datatracker.ietf.org/doc/html/draft-tjhai-ipsecme-hybrid-qske-ikev2-04)
+* I-D [Hybrid key exchange in TLS 1.3](https://datatracker.ietf.org/doc/html/draft-ietf-tls-hybrid-design)
+* I-D [Hybrid Post-Quantum Key Encapsulation Methods (PQ KEM) for Transport Layer Security 1.2 (TLS)](https://datatracker.ietf.org/doc/html/draft-campagna-tls-bike-sike-hybrid)
+* I-D [Merkle Tree Certificates](https://datatracker.ietf.org/doc/draft-ietf-plants-merkle-tree-certs/)
+* I-D [ML-KEM Post-Quantum Key Agreement for TLS 1.3 ](https://datatracker.ietf.org/doc/draft-ietf-tls-mlkem/)
+* I-D [Post-Quantum Cryptography for Engineers](https://datatracker.ietf.org/doc/draft-ietf-pquip-pqc-engineers/)
+* I-D [Post-Quantum and Post-Quantum/Traditional Hybrid Algorithms for HPKE](https://datatracker.ietf.org/doc/draft-ietf-hpke-pq/)
+* I-D [Post-quantum hybrid ECDHE-MLKEM Key Agreement for TLSv1.3](https://datatracker.ietf.org/doc/draft-ietf-tls-ecdhe-mlkem/)
+* I-D [Post-quantum Key Exchange with ML-KEM in the Internet Key Exchange Protocol Version 2 (IKEv2) ](https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-mlkem/)
+* I-D [PQ/T Hybrid Key Exchange with ML-KEM in SSH](https://www.ietf.org/archive/id/draft-ietf-sshm-mlkem-hybrid-kex-10.html)
+* I-D [Use of Composite ML-DSA in TLS 1.3](https://datatracker.ietf.org/doc/draft-reddy-tls-composite-mldsa/)
+* I-D [Use of ML-DSA in TLS 1.3](https://datatracker.ietf.org/doc/draft-ietf-tls-mldsa/)
+* I-D [Use of the FN-DSA Signature Algorithm in the Cryptographic Message Syntax (CMS)](https://www.ietf.org/archive/id/draft-turner-lamps-cms-fn-dsa-00.html)
+
+## From tech organizations
+
+Alibaba:
+
+* [What is Post-Quantum Encryption - And How to Enable It on ESA](https://www.alibabacloud.com/blog/what-is-post-quantum-encryption---and-how-to-enable-it-on-esa_603220)
+
+Apple:
+
+* [iMessage with PQ3 protocol](https://security.apple.com/blog/imessage-pq3/)
+* [Security research blog on PQC](https://security.apple.com/)
+
+AWS:
+
+* [AWS KMS post-quantum TLS](https://aws.amazon.com/blogs/security/post-quantum-tls-now-supported-in-aws-kms/)
+* [AWS PQC Initiative](https://aws.amazon.com/security/post-quantum-cryptography/)
+* [AWS post-quantum cryptography migration plan](https://aws.amazon.com/blogs/security/aws-post-quantum-cryptography-migration-plan/)
+* [s2n-tls PQC implementation](https://github.com/aws/s2n-tls/tree/main/pq-crypto) ⭐ 4,750 | 🐛 303 | 🌐 C | 📅 2026-08-13
+* [Verifying and optimizing post-quantum cryptography at Amazon](https://www.amazon.science/blog/verifying-and-optimizing-post-quantum-cryptography-at-amazon)
+
+Cloudflare:
+
+* [A look at the latest post-quantum signature standardization candidates](https://blog.cloudflare.com/another-look-at-pq-signatures/)
+* [Cloudflare targets 2029 for full post-quantum security](https://blog.cloudflare.com/post-quantum-roadmap/)
+* [Keeping the Internet fast and secure: introducing Merkle Tree Certificates](https://blog.cloudflare.com/bootstrap-mtc/)
+* [PQC solutions overview](https://www.cloudflare.com/pqc/)
+* [State of the post-quantum Internet in 2025](https://blog.cloudflare.com/pq-2025/)
+* [Why we cannot wait for better post-quantum signature algorithms](https://blog.cloudflare.com/ml-dsa-will-have-to-do/)
+* [You don’t need quantum hardware for post-quantum security](https://blog.cloudflare.com/you-dont-need-quantum-hardware/)
+
+Google:
+
+* Roadmap: [PQC in Plaintext: Google Cloud’s post-quantum cryptography roadmap](https://cloud.google.com/blog/products/identity-security/pqc-in-plaintext-google-clouds-post-quantum-cryptography-roadmap/)
+* [Announcing quantum-safe digital signatures in Cloud KMS](https://cloud.google.com/blog/products/identity-security/announcing-quantum-safe-digital-signatures-in-cloud-kms)
+* [Building superconducting and neutral atom quantum computers](https://blog.google/innovation-and-ai/technology/research/neutral-atom-quantum-computers/)
+* [FIDO2/WebAuthn post-quantum security keys](https://security.googleblog.com/)
+* [Google Cloud Post-Quantum Cryptography (PQC)](https://cloud.google.com/security/resources/post-quantum-cryptography)
+* [Post-quantum cryptography in Chrome](https://security.googleblog.com/2024/08/post-quantum-cryptography-standards.html)
+* [Quantum frontiers may be closer than they appear](https://blog.google/innovation-and-ai/technology/safety-security/cryptography-migration-timeline/)
+
+Hashicorp:
+
+* [NIST’s post-quantum cryptography standards: Our plans](https://www.hashicorp.com/en/blog/nist-s-post-quantum-cryptography-standards-our-plans)
+
+IBM:
+
+* [Cryptographic Bill of Materials (CBOM)](https://www.ibm.com/quantum/quantum-safe/cbom)
+* [IBM Quantum Safe](https://www.ibm.com/quantum/quantum-safe)
+* [Quantum Safe Roadmap](https://www.ibm.com/quantum/quantum-safe/roadmap)
+
+Kubernetes:
+
+* [Post-Quantum Cryptography in Kubernetes](https://kubernetes.io/blog/2025/07/18/pqc-in-k8s/)
+
+Meta:
+
+* [Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways](https://engineering.fb.com/2026/04/16/security/post-quantum-cryptography-migration-at-meta-framework-lessons-and-takeaways/)
+* [Post-quantum readiness for TLS at Meta](https://engineering.fb.com/2024/05/22/security/post-quantum-readiness-tls-pqr-meta/)
+
+Microsoft:
+
+* [Azure Quantum Cryptography](https://azure.microsoft.com/en-us/products/quantum/)
+* [LWEKE Reference implementations](https://github.com/Microsoft/PQCrypto-LWEKE) ⭐ 165 | 🐛 2 | 🌐 C | 📅 2025-09-29
+* [Microsoft PQC program](https://www.microsoft.com/en-us/research/project/post-quantum-cryptography/)
+* [Post-Quantum TLS](https://www.microsoft.com/en-us/research/project/post-quantum-tls/)
+
+Palo Alto Networks:
+
+* [A Complete Guide to Post-Quantum Cryptography Standards](https://www.paloaltonetworks.com/cyberpedia/pqc-standards)
+* [Quantum Readiness Guide](https://www.paloaltonetworks.co.uk/cyberpedia/quantum-readiness)
+
+Red Hat:
+
+* [Post-quantum cryptography in Red Hat Enterprise Linux 10](https://www.redhat.com/en/blog/post-quantum-cryptography-red-hat-enterprise-linux-10)
+* [What’s new in post-quantum cryptography in RHEL 10.1](https://www.redhat.com/en/blog/whats-new-post-quantum-cryptography-rhel-101)
+
+Signal:
+
+* [PQXDH: Post-Quantum Extended Diffie-Hellman](https://signal.org/docs/specifications/pqxdh/)
+* [Signal's approach to post-quantum encryption](https://signal.org/blog/pqxdh/)
+
+Tencent:
+
+* [PQC InfoHub](https://pqc.tencent.com/en)
+
+## PQC software
+
+* [SUPERCOP](https://bench.cr.yp.to/results-kem.html) - Benchmarks for cryptographic software
+* [PQConnect](https://www.pqconnect.net/) - Network-layer PQ-protected tunneling
+
+### General-purpose libraries with PQC support
+
+Does not include TLS implementations listed later:
+
+* [Botan](https://github.com/randombit/botan) ⭐ 3,298 | 🐛 255 | 🌐 C++ | 📅 2026-08-13 - C++
+* [CIRCL (Cloudflare Interoperable, Reusable Cryptographic Library)](https://github.com/cloudflare/circl) ⭐ 1,708 | 🐛 55 | 🌐 Go | 📅 2026-08-06 - Go
+* [AWS-LC](https://github.com/aws/aws-lc/blob/main/crypto/fipsmodule/PQREADME.md) ⭐ 816 | 🐛 69 | 🌐 Assembly | 📅 2026-08-13 - Rust bindings in [aws-lc-rs](https://github.com/aws/aws-lc-rs) ⭐ 641 | 🐛 36 | 🌐 Rust | 📅 2026-08-11
+* [Bouncy Castle](https://www.bouncycastle.org/) - Java/C#
+* [Google Tink](https://github.com/tink-crypto) - Multi-language (C++, Go, Java, Obj-C, Python)
+
+### PQC libraries and language-specific software
+
+C:
+
+* [liboqs](https://github.com/open-quantum-safe/liboqs) ⭐ 3,034 | 🐛 113 | 🌐 C | 📅 2026-08-12 - From [Open Quantum Safe](https://openquantumsafe.org/)
+* [mupq/pqm4](https://github.com/mupq/pqm4) ⭐ 448 | 🐛 36 | 🌐 C | 📅 2026-06-19 - PQC library for the ARM Cortex-M4
+* [algorand/falcon](https://github.com/algorand/falcon) ⭐ 49 | 🐛 6 | 🌐 C | 📅 2026-07-01 - Deterministic FALCON implementation
+* [PQ Code Package](https://github.com/pq-code-package) - A Linux Foundation [PQCA](https://pqca.org/) project building high-assurance implementations of standards-track algorithms
+
+Go:
+
+* [Go crypto/mlkem](https://pkg.go.dev/crypto/mlkem) - Official Go implementation of Kyber/ML-KEM
+
+JavaScript:
+
+* [paulmillr/noble-post-quantum](https://github.com/paulmillr/noble-post-quantum) ⭐ 339 | 🐛 7 | 🌐 TypeScript | 📅 2026-08-13 - ML-KEM, ML-DSA, SLH-DSA, Falcon, and hybrids
+
+.NET:
+
+* [Post-Quantum Cryptography in .NET](https://devblogs.microsoft.com/dotnet/post-quantum-cryptography-in-dotnet/)
+
+Rust:
+
+* [orion-rs/orion](https://github.com/orion-rs/orion) ⭐ 721 | 🐛 16 | 🌐 Rust | 📅 2026-08-13 - ML-KEM
+* [RustCrypto/signatures](https://github.com/RustCrypto/signatures) ⭐ 655 | 🐛 14 | 🌐 Rust | 📅 2026-08-11 - ML-DSA, SLH-DSA, LMS
+* [RustCrypto/KEMs](https://github.com/RustCrypto/KEMs) ⭐ 107 | 🐛 18 | 🌐 Rust | 📅 2026-08-10 - ML-KEM, FrodoKem
+* [libcrux](https://crates.io/crates/libcrux) - Formally verified code
+
+Zig:
+
+* [std.crypto](https://www.mintlify.com/ziglang/zig/api/crypto) -
+  ML-DSA and ML-KEM in the standard library
+
+### TLS implementations with PQC support
+
+* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 135,746 | 🐛 10,219 | 🌐 Go | 📅 2026-08-13
+* [aws/s2n-tls](https://github.com/aws/s2n-tls/) ⭐ 4,750 | 🐛 303 | 🌐 C | 📅 2026-08-13
+* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,905 | 🐛 192 | 🌐 C | 📅 2026-08-13
+* [BoringSSL](https://boringssl.googlesource.com/boringssl)
+* [OpenSSL](https://www.openssl.org/)
+
+## Blockchains
+
+Official documentation, plan, proposals, and specifications:
+
+Algorand:
+
+* [Algorand Post-Quantum Roadmap](https://algorand.co/blog/algorand-post-quantum-cryptography-roadmap)
+* [Technical Brief: Quantum-resistant transactions on Algorand with Falcon signatures](https://algorand.co/blog/technical-brief-quantum-resistant-transactions-on-algorand-with-falcon-signatures)
+* [Algorand Post-Quantum Ledger: Securing the ledger, one account type at a time](https://algorand.co/blog/algorand-post-quantum-ledger)
+* [Deterministic Falcon Signatures](https://github.com/algorandfoundation/specs/blob/master/_archive/dev/cryptographic-specs/falcon-deterministic.pdf) ⭐ 73 | 🐛 19 | 🌐 TeX | 📅 2026-08-06
+
+Bitcoin:
+
+* [BIP-360: Pay-to-Merkle-Root (P2MR)](https://bip360.org/)
+* [BIP-361: Post Quantum Migration and Legacy Signature Sunset](https://www.bip361.org/)
+* [Lattice-based Signature Schemes for Bitcoin](https://eprint.iacr.org/2026/1628)
+* [OP\_CHECKSHRINCS: A Hash-Based Signature Opcode for Post-Quantum Bitcoin](https://blog.blockstream.com/op_checkshrincs-a-hash-based-signature-opcode-for-post-quantum-bitcoin/)
+
+Circle/Arc:
+
+* [Circle’s Post-Quantum Security
+  Roadmap](https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/PDFs/quantum_paper.pdf):
+  "Arc will deploy a precompiled post-quantum signature verifier on mainnet (**SLH-DSA-SHA2-128s**) so smart accounts can validate post-quantum signatures on-chain."
+
+Ethereum:
+
+* [Post-quantum cryptography on Ethereum](https://ethereum.org/roadmap/future-proofing/quantum-resistance/)
+* [pq.ethereum.org](https://pq.ethereum.org/)
+* [Lean Consensus R\&D Progress](https://leanroadmap.org/)
+
+NEAR:
+
+* [Preparing NEAR for the Quantum Computing Era](https://www.near.org/blog/making-near-protocol-post-quantum-safe): "The Near One team (...) decided to start with FIPS-204 (**ML-DSA**, prev.  Dilithium)"
+
+Polkadot:
+
+* [Post Quantum Cryptography Roadmap for Polkadot and
+  JAM](https://forum.polkadot.network/t/post-quantum-cryptography-roadmap-for-polkadot-and-jam/13232):
+  "We use both \[**Falcon and Dilithium**] in different parts of the Polkadot protocol to replace all signature schemes."
+
+Ripple:
+
+* [Post-Quantum Readiness on the XRP Ledger](https://ripple.com/insights/post-quantum-readiness-on-the-xrp-ledger/)
+
+Solana:
+
+* [Quantumglow: Will Solana’s Performance Survive Quantum Computing?](https://www.anza.xyz/blog/quantumglow-will-solana%E2%80%99s-performance-survive-quantum-computing): "we propose a **hash-based (XMSS-style)** signature scheme tailored specifically to Quantumglow"
+* [Securing Solana Against a Powerful Quantum Adversary](https://www.anza.xyz/blog/securing-solana-against-a-powerful-quantum-adversary)
+* [Solana’s Quantum Readiness](https://solana.com/news/quantum-readiness): "The alignment around **Falcon** reflects extensive research around Solana’s quantum resiliency. "
+
+Sui:
+
+* [Making Sui Quantum Ready](https://www.sui.io/blog/making-sui-quantum-ready): "Sui is adding \[...] **ML-DSA-65** as a native protocol signature scheme for everyday accounts, and **hash-based SLH-DSA-SHA2-128s** inside Move smart contracts for high-value vaults."
+
+Zcash:
+
+* [ZIP-2005: Orchard Quantum Recoverability](https://zips.z.cash/zip-2005)
+
+## Research surveys
+
+* [A Decade of Lattice-Based Cryptography](https://eprint.iacr.org/2015/939.pdf) by Chris Peikert
+* [A Survey on Code-Based Cryptography](https://arxiv.org/abs/2201.07119) by Violetta Weger, Niklas Gassner and Joachim Rosenthal
+* [Mathematics of Isogeny-Based Cryptography](https://arxiv.org/abs/1711.04062) by Luca de Feo
+* [Post-Quantum Cryptography](https://www.researchgate.net/profile/Nicolas-Sendrier-2/publication/226115302_Code-Based_Cryptography/links/540d62d50cf2df04e7549388/Code-Based-Cryptography.pdf) by Daniel J. Bernstein, Johannes Buchmann and Erik Dahmen
+* [Post-quantum cryptography—dealing with the fallout of physics success](https://eprint.iacr.org/2017/314) by Daniel J. Bernstein and Tanja Lange
+* [Securing Elliptic Curve Cryptocurrencies against Quantum Vulnerabilities: Resource Estimates and Mitigations](https://quantumai.google/static/site-assets/downloads/cryptocurrency-whitepaper.pdf) by Google Quantum AI
+* [The Learning with Errors Problem](https://cims.nyu.edu/~regev/papers/lwesurvey.pdf) by Oded Regev
+* [A Gentle Introduction to Lattice-Based Cryptography](https://cryptography101.ca/wp-content/uploads/lattice-based-cryptography.pdf) by Alfred Menezes
+
+## Other resources
+
+* [awesome-quantum-software](https://github.com/qosf/awesome-quantum-software) ⭐ 2,373 | 🐛 7 | 📅 2026-07-29
+* [PQC Crypto Registry](https://registry.projecteleven.com/) - By Project Eleven
+* [PQCrypto Usage & Deployment](https://ianix.com/pqcrypto/pqcrypto-deployment.html)
+* [PQC Forum](https://groups.google.com/a/list.nist.gov/g/pqc-forum) - NIST's discussion list
+* [PQ-SORT: Post-Quantum Signatures On-Ramp Tests](https://pqsort.tii.ae/)
+* [Quantum Algorithm Zoo](https://quantumalgorithmzoo.org)
+
+***
+
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-13._

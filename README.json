@@ -1,0 +1,156 @@
+{
+  "items": [
+    {
+      "description": "Does not include TLS implementations listed later:",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Botan",
+          "description": "C++",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-13T17:27:06Z",
+            "owner": "randombit",
+            "repo": "botan",
+            "stars": 3298
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CIRCL (Cloudflare Interoperable, Reusable Cryptographic Library)",
+          "description": "Go",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-06T15:18:25Z",
+            "owner": "cloudflare",
+            "repo": "circl",
+            "stars": 1708
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "AWS-LC",
+          "description": "Rust bindings in aws-lc-rs",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Assembly",
+            "last_commit": "2026-08-13T19:23:35Z",
+            "owner": "aws",
+            "repo": "aws-lc",
+            "stars": 816
+          }
+        }
+      ],
+      "title": "General-purpose libraries with PQC support"
+    },
+    {
+      "description": "C:",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "liboqs",
+          "description": "From Open Quantum Safe",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-12T20:07:40Z",
+            "owner": "open-quantum-safe",
+            "repo": "liboqs",
+            "stars": 3034
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mupq/pqm4",
+          "description": "PQC library for the ARM Cortex-M4",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-06-19T03:01:31Z",
+            "owner": "mupq",
+            "repo": "pqm4",
+            "stars": 448
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "algorand/falcon",
+          "description": "Deterministic FALCON implementation",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-07-01T12:29:02Z",
+            "owner": "algorand",
+            "repo": "falcon",
+            "stars": 49
+          }
+        }
+      ],
+      "title": "PQC libraries and language-specific software"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Go crypto/tls",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T19:58:11Z",
+            "owner": "golang",
+            "repo": "go",
+            "stars": 135746
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "aws/s2n-tls",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-13T19:20:40Z",
+            "owner": "aws",
+            "repo": "s2n-tls",
+            "stars": 4750
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wolfSSL",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-13T17:36:43Z",
+            "owner": "wolfSSL",
+            "repo": "wolfssl",
+            "stars": 2905
+          }
+        }
+      ],
+      "title": "TLS implementations with PQC support"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T20:01:27.591Z",
+    "original_repository": "veorq/awesome-post-quantum",
+    "original_repository_sha": "b8472ee2b5fec5f88a8cacedda17c1db978eaaab",
+    "enhanced_repository": "enhansome/enhansome-post-quantum",
+    "enhanced_repository_description": null,
+    "title": "Awesome Post-Quantum with stars"
+  }
+}
