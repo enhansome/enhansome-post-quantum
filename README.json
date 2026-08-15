@@ -11,10 +11,10 @@
           "repo_info": {
             "archived": false,
             "language": "C++",
-            "last_commit": "2026-08-14T19:17:58Z",
+            "last_commit": "2026-08-15T19:32:15Z",
             "owner": "randombit",
             "repo": "botan",
-            "stars": 3299
+            "stars": 3300
           }
         },
         {
@@ -28,7 +28,7 @@
             "last_commit": "2026-08-06T15:18:25Z",
             "owner": "cloudflare",
             "repo": "circl",
-            "stars": 1708
+            "stars": 1709
           }
         },
         {
@@ -39,7 +39,7 @@
           "repo_info": {
             "archived": false,
             "language": "Assembly",
-            "last_commit": "2026-08-14T07:00:27Z",
+            "last_commit": "2026-08-14T20:33:30Z",
             "owner": "aws",
             "repo": "aws-lc",
             "stars": 817
@@ -62,7 +62,7 @@
             "last_commit": "2026-08-12T20:07:40Z",
             "owner": "open-quantum-safe",
             "repo": "liboqs",
-            "stars": 3035
+            "stars": 3036
           }
         },
         {
@@ -107,10 +107,10 @@
           "repo_info": {
             "archived": false,
             "language": "Go",
-            "last_commit": "2026-08-14T17:22:12Z",
+            "last_commit": "2026-08-15T12:09:09Z",
             "owner": "golang",
             "repo": "go",
-            "stars": 135777
+            "stars": 135772
           }
         },
         {
@@ -124,7 +124,7 @@
             "last_commit": "2026-08-14T08:06:51Z",
             "owner": "aws",
             "repo": "s2n-tls",
-            "stars": 4750
+            "stars": 4751
           }
         },
         {
@@ -135,10 +135,10 @@
           "repo_info": {
             "archived": false,
             "language": "C",
-            "last_commit": "2026-08-14T16:40:43Z",
+            "last_commit": "2026-08-15T02:11:49Z",
             "owner": "wolfSSL",
             "repo": "wolfssl",
-            "stars": 2906
+            "stars": 2907
           }
         }
       ],
@@ -146,7 +146,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-14T19:58:32.341Z",
+    "last_updated": "2026-08-15T19:38:19.121Z",
     "original_repository": "veorq/awesome-post-quantum",
     "original_repository_sha": "5c43ceb056216c7bf0488f5c5ab1a9aaaf639723",
     "enhanced_repository": "enhansome/enhansome-post-quantum",
