@@ -12,7 +12,7 @@
             "archived": false,
             "id": 21287076,
             "language": "C",
-            "last_commit": "2026-08-24T00:08:53Z",
+            "last_commit": "2026-08-24T17:35:13Z",
             "owner": "aws",
             "repo": "s2n-tls",
             "stars": 4755
@@ -50,7 +50,7 @@
                 "archived": false,
                 "id": 8608254,
                 "language": "C++",
-                "last_commit": "2026-08-23T18:37:31Z",
+                "last_commit": "2026-08-24T16:32:24Z",
                 "owner": "randombit",
                 "repo": "botan",
                 "stars": 3306
@@ -80,7 +80,7 @@
                 "archived": false,
                 "id": 263967166,
                 "language": "Assembly",
-                "last_commit": "2026-08-24T12:46:55Z",
+                "last_commit": "2026-08-24T19:38:22Z",
                 "owner": "aws",
                 "repo": "aws-lc",
                 "stars": 818
@@ -147,7 +147,7 @@
                 "archived": false,
                 "id": 764428596,
                 "language": "TypeScript",
-                "last_commit": "2026-08-22T09:54:35Z",
+                "last_commit": "2026-08-24T19:41:53Z",
                 "owner": "paulmillr",
                 "repo": "noble-post-quantum",
                 "stars": 349
@@ -214,10 +214,10 @@
                 "archived": false,
                 "id": 23096959,
                 "language": "Go",
-                "last_commit": "2026-08-24T14:17:58Z",
+                "last_commit": "2026-08-24T19:46:25Z",
                 "owner": "golang",
                 "repo": "go",
-                "stars": 136204
+                "stars": 136394
               }
             },
             {
@@ -229,7 +229,7 @@
                 "archived": false,
                 "id": 21287076,
                 "language": "C",
-                "last_commit": "2026-08-24T00:08:53Z",
+                "last_commit": "2026-08-24T17:35:13Z",
                 "owner": "aws",
                 "repo": "s2n-tls",
                 "stars": 4755
@@ -244,7 +244,7 @@
                 "archived": false,
                 "id": 28928522,
                 "language": "C",
-                "last_commit": "2026-08-22T14:56:06Z",
+                "last_commit": "2026-08-24T15:50:17Z",
                 "owner": "wolfSSL",
                 "repo": "wolfssl",
                 "stars": 2918
@@ -302,7 +302,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T14:24:49.519Z",
+    "last_updated": "2026-08-24T19:47:45.917Z",
     "original_repository": "veorq/awesome-post-quantum",
     "original_repository_id": 404010411,
     "original_repository_sha": "e7f187ee9f133feb688c4d0b00f688547b15050f",
