@@ -12,7 +12,7 @@
             "archived": false,
             "id": 21287076,
             "language": "C",
-            "last_commit": "2026-08-25T00:08:56Z",
+            "last_commit": "2026-08-25T08:05:06Z",
             "owner": "aws",
             "repo": "s2n-tls",
             "stars": 4755
@@ -50,10 +50,10 @@
                 "archived": false,
                 "id": 8608254,
                 "language": "C++",
-                "last_commit": "2026-08-25T02:20:04Z",
+                "last_commit": "2026-08-25T18:03:08Z",
                 "owner": "randombit",
                 "repo": "botan",
-                "stars": 3306
+                "stars": 3307
               }
             },
             {
@@ -68,7 +68,7 @@
                 "last_commit": "2026-08-24T14:00:22Z",
                 "owner": "cloudflare",
                 "repo": "circl",
-                "stars": 1709
+                "stars": 1710
               }
             },
             {
@@ -80,10 +80,10 @@
                 "archived": false,
                 "id": 263967166,
                 "language": "Assembly",
-                "last_commit": "2026-08-24T22:18:26Z",
+                "last_commit": "2026-08-25T13:04:56Z",
                 "owner": "aws",
                 "repo": "aws-lc",
-                "stars": 818
+                "stars": 820
               }
             }
           ],
@@ -105,7 +105,7 @@
                 "last_commit": "2026-08-23T01:46:43Z",
                 "owner": "open-quantum-safe",
                 "repo": "liboqs",
-                "stars": 3042
+                "stars": 3043
               }
             },
             {
@@ -117,7 +117,7 @@
                 "archived": false,
                 "id": 125497928,
                 "language": "C",
-                "last_commit": "2026-08-24T13:57:59Z",
+                "last_commit": "2026-08-25T11:31:39Z",
                 "owner": "mupq",
                 "repo": "pqm4",
                 "stars": 450
@@ -214,10 +214,10 @@
                 "archived": false,
                 "id": 23096959,
                 "language": "Go",
-                "last_commit": "2026-08-25T00:53:42Z",
+                "last_commit": "2026-08-25T17:23:05Z",
                 "owner": "golang",
                 "repo": "go",
-                "stars": 136444
+                "stars": 136460
               }
             },
             {
@@ -229,7 +229,7 @@
                 "archived": false,
                 "id": 21287076,
                 "language": "C",
-                "last_commit": "2026-08-25T00:08:56Z",
+                "last_commit": "2026-08-25T08:05:06Z",
                 "owner": "aws",
                 "repo": "s2n-tls",
                 "stars": 4755
@@ -244,7 +244,7 @@
                 "archived": false,
                 "id": 28928522,
                 "language": "C",
-                "last_commit": "2026-08-25T06:09:07Z",
+                "last_commit": "2026-08-25T19:20:57Z",
                 "owner": "wolfSSL",
                 "repo": "wolfssl",
                 "stars": 2918
@@ -302,7 +302,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T06:15:34.144Z",
+    "last_updated": "2026-08-25T19:48:28.194Z",
     "original_repository": "veorq/awesome-post-quantum",
     "original_repository_id": 404010411,
     "original_repository_sha": "e7f187ee9f133feb688c4d0b00f688547b15050f",

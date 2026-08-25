@@ -277,9 +277,9 @@ Tencent:
 
 Does not include TLS implementations listed later:
 
-* [Botan](https://github.com/randombit/botan) ⭐ 3,306 | 🐛 249 | 🌐 C++ | 📅 2026-08-25 - C++
-* [CIRCL (Cloudflare Interoperable, Reusable Cryptographic Library)](https://github.com/cloudflare/circl) ⭐ 1,709 | 🐛 57 | 🌐 Go | 📅 2026-08-24 - Go
-* [AWS-LC](https://github.com/aws/aws-lc/blob/main/crypto/fipsmodule/PQREADME.md) ⭐ 818 | 🐛 66 | 🌐 Assembly | 📅 2026-08-24 - Rust bindings in [aws-lc-rs](https://github.com/aws/aws-lc-rs) ⭐ 642 | 🐛 34 | 🌐 Rust | 📅 2026-08-21
+* [Botan](https://github.com/randombit/botan) ⭐ 3,307 | 🐛 249 | 🌐 C++ | 📅 2026-08-25 - C++
+* [CIRCL (Cloudflare Interoperable, Reusable Cryptographic Library)](https://github.com/cloudflare/circl) ⭐ 1,710 | 🐛 57 | 🌐 Go | 📅 2026-08-24 - Go
+* [AWS-LC](https://github.com/aws/aws-lc/blob/main/crypto/fipsmodule/PQREADME.md) ⭐ 820 | 🐛 65 | 🌐 Assembly | 📅 2026-08-25 - Rust bindings in [aws-lc-rs](https://github.com/aws/aws-lc-rs) ⭐ 643 | 🐛 34 | 🌐 Rust | 📅 2026-08-25
 * [Bouncy Castle](https://www.bouncycastle.org/) - Java/C#
 * [Google Tink](https://github.com/tink-crypto) - Multi-language (C++, Go, Java, Obj-C, Python)
 
@@ -287,8 +287,8 @@ Does not include TLS implementations listed later:
 
 C:
 
-* [liboqs](https://github.com/open-quantum-safe/liboqs) ⭐ 3,042 | 🐛 116 | 🌐 C | 📅 2026-08-23 - From [Open Quantum Safe](https://openquantumsafe.org/)
-* [mupq/pqm4](https://github.com/mupq/pqm4) ⭐ 450 | 🐛 39 | 🌐 C | 📅 2026-08-24 - PQC library for the ARM Cortex-M4
+* [liboqs](https://github.com/open-quantum-safe/liboqs) ⭐ 3,043 | 🐛 116 | 🌐 C | 📅 2026-08-23 - From [Open Quantum Safe](https://openquantumsafe.org/)
+* [mupq/pqm4](https://github.com/mupq/pqm4) ⭐ 450 | 🐛 38 | 🌐 C | 📅 2026-08-25 - PQC library for the ARM Cortex-M4
 * [algorand/falcon](https://github.com/algorand/falcon) ⭐ 48 | 🐛 6 | 🌐 C | 📅 2026-07-01 - Deterministic FALCON implementation
 * [PQ Code Package](https://github.com/pq-code-package) - A Linux Foundation [PQCA](https://pqca.org/) project building high-assurance implementations of standards-track algorithms
 
@@ -318,9 +318,9 @@ Zig:
 
 ### TLS implementations with PQC support
 
-* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 136,444 | 🐛 10,146 | 🌐 Go | 📅 2026-08-25
+* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 136,460 | 🐛 10,121 | 🌐 Go | 📅 2026-08-25
 * [aws/s2n-tls](https://github.com/aws/s2n-tls/) ⭐ 4,755 | 🐛 319 | 🌐 C | 📅 2026-08-25
-* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,918 | 🐛 192 | 🌐 C | 📅 2026-08-25
+* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,918 | 🐛 200 | 🌐 C | 📅 2026-08-25
 * [BoringSSL](https://boringssl.googlesource.com/boringssl)
 * [OpenSSL](https://www.openssl.org/)
 
