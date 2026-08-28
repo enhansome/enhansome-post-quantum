@@ -12,7 +12,7 @@
             "archived": false,
             "id": 21287076,
             "language": "C",
-            "last_commit": "2026-08-27T01:23:34Z",
+            "last_commit": "2026-08-28T02:45:56Z",
             "owner": "aws",
             "repo": "s2n-tls",
             "stars": 4756
@@ -50,7 +50,7 @@
                 "archived": false,
                 "id": 8608254,
                 "language": "C++",
-                "last_commit": "2026-08-27T11:50:12Z",
+                "last_commit": "2026-08-28T03:22:58Z",
                 "owner": "randombit",
                 "repo": "botan",
                 "stars": 3307
@@ -80,7 +80,7 @@
                 "archived": false,
                 "id": 263967166,
                 "language": "Assembly",
-                "last_commit": "2026-08-26T20:20:36Z",
+                "last_commit": "2026-08-27T17:23:37Z",
                 "owner": "aws",
                 "repo": "aws-lc",
                 "stars": 820
@@ -105,7 +105,7 @@
                 "last_commit": "2026-08-27T03:45:43Z",
                 "owner": "open-quantum-safe",
                 "repo": "liboqs",
-                "stars": 3045
+                "stars": 3046
               }
             },
             {
@@ -147,7 +147,7 @@
                 "archived": false,
                 "id": 764428596,
                 "language": "TypeScript",
-                "last_commit": "2026-08-27T10:40:20Z",
+                "last_commit": "2026-08-27T15:36:48Z",
                 "owner": "paulmillr",
                 "repo": "noble-post-quantum",
                 "stars": 350
@@ -162,7 +162,7 @@
                 "archived": false,
                 "id": 120498667,
                 "language": "Rust",
-                "last_commit": "2026-08-25T04:22:27Z",
+                "last_commit": "2026-08-27T20:43:24Z",
                 "owner": "orion-rs",
                 "repo": "orion",
                 "stars": 722
@@ -214,10 +214,10 @@
                 "archived": false,
                 "id": 23096959,
                 "language": "Go",
-                "last_commit": "2026-08-27T04:31:00Z",
+                "last_commit": "2026-08-28T02:49:16Z",
                 "owner": "golang",
                 "repo": "go",
-                "stars": 136538
+                "stars": 136552
               }
             },
             {
@@ -229,7 +229,7 @@
                 "archived": false,
                 "id": 21287076,
                 "language": "C",
-                "last_commit": "2026-08-27T01:23:34Z",
+                "last_commit": "2026-08-28T02:45:56Z",
                 "owner": "aws",
                 "repo": "s2n-tls",
                 "stars": 4756
@@ -244,7 +244,7 @@
                 "archived": false,
                 "id": 28928522,
                 "language": "C",
-                "last_commit": "2026-08-26T23:03:46Z",
+                "last_commit": "2026-08-28T02:15:52Z",
                 "owner": "wolfSSL",
                 "repo": "wolfssl",
                 "stars": 2920
@@ -302,7 +302,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T11:56:29.028Z",
+    "last_updated": "2026-08-28T03:36:21.065Z",
     "original_repository_info": {
       "archived": false,
       "id": 404010411,
