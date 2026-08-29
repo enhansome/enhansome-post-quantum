@@ -318,7 +318,7 @@ Zig:
 
 ### TLS implementations with PQC support
 
-* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 136,563 | 🐛 10,082 | 🌐 Go | 📅 2026-08-28
+* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 136,562 | 🐛 10,085 | 🌐 Go | 📅 2026-08-28
 * [aws/s2n-tls](https://github.com/aws/s2n-tls/) ⭐ 4,757 | 🐛 318 | 🌐 C | 📅 2026-08-28
 * [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,921 | 🐛 227 | 🌐 C | 📅 2026-08-28
 * [BoringSSL](https://boringssl.googlesource.com/boringssl)
