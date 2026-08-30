@@ -197,7 +197,7 @@ Apple:
 
 AWS:
 
-* [s2n-tls PQC implementation](https://github.com/aws/s2n-tls/tree/main/pq-crypto) ⭐ 4,757 | 🐛 319 | 🌐 C | 📅 2026-08-28
+* [s2n-tls PQC implementation](https://github.com/aws/s2n-tls/tree/main/pq-crypto) ⭐ 4,759 | 🐛 319 | 🌐 C | 📅 2026-08-28
 * [AWS KMS post-quantum TLS](https://aws.amazon.com/blogs/security/post-quantum-tls-now-supported-in-aws-kms/)
 * [AWS PQC Initiative](https://aws.amazon.com/security/post-quantum-cryptography/)
 * [AWS post-quantum cryptography migration plan](https://aws.amazon.com/blogs/security/aws-post-quantum-cryptography-migration-plan/)
@@ -244,7 +244,7 @@ Meta:
 
 Microsoft:
 
-* [LWEKE Reference implementations](https://github.com/Microsoft/PQCrypto-LWEKE) ⭐ 165 | 🐛 3 | 🌐 C | 📅 2025-09-29
+* [LWEKE Reference implementations](https://github.com/Microsoft/PQCrypto-LWEKE) ⭐ 163 | 🐛 3 | 🌐 C | 📅 2025-09-29
 * [Azure Quantum Cryptography](https://azure.microsoft.com/en-us/products/quantum/)
 * [Microsoft PQC program](https://www.microsoft.com/en-us/research/project/post-quantum-cryptography/)
 * [Post-Quantum TLS](https://www.microsoft.com/en-us/research/project/post-quantum-tls/)
@@ -277,8 +277,8 @@ Tencent:
 
 Does not include TLS implementations listed later:
 
-* [Botan](https://github.com/randombit/botan) ⭐ 3,308 | 🐛 249 | 🌐 C++ | 📅 2026-08-29 - C++
-* [CIRCL (Cloudflare Interoperable, Reusable Cryptographic Library)](https://github.com/cloudflare/circl) ⭐ 1,712 | 🐛 62 | 🌐 Go | 📅 2026-08-24 - Go
+* [Botan](https://github.com/randombit/botan) ⭐ 3,309 | 🐛 249 | 🌐 C++ | 📅 2026-08-30 - C++
+* [CIRCL (Cloudflare Interoperable, Reusable Cryptographic Library)](https://github.com/cloudflare/circl) ⭐ 1,713 | 🐛 62 | 🌐 Go | 📅 2026-08-24 - Go
 * [AWS-LC](https://github.com/aws/aws-lc/blob/main/crypto/fipsmodule/PQREADME.md) ⭐ 823 | 🐛 65 | 🌐 Assembly | 📅 2026-08-27 - Rust bindings in [aws-lc-rs](https://github.com/aws/aws-lc-rs) ⭐ 641 | 🐛 36 | 🌐 Rust | 📅 2026-08-27
 * [Bouncy Castle](https://www.bouncycastle.org/) - Java/C#
 * [Google Tink](https://github.com/tink-crypto) - Multi-language (C++, Go, Java, Obj-C, Python)
@@ -287,7 +287,7 @@ Does not include TLS implementations listed later:
 
 C:
 
-* [liboqs](https://github.com/open-quantum-safe/liboqs) ⭐ 3,047 | 🐛 117 | 🌐 C | 📅 2026-08-27 - From [Open Quantum Safe](https://openquantumsafe.org/)
+* [liboqs](https://github.com/open-quantum-safe/liboqs) ⭐ 3,047 | 🐛 118 | 🌐 C | 📅 2026-08-30 - From [Open Quantum Safe](https://openquantumsafe.org/)
 * [mupq/pqm4](https://github.com/mupq/pqm4) ⭐ 450 | 🐛 38 | 🌐 C | 📅 2026-08-25 - PQC library for the ARM Cortex-M4
 * [algorand/falcon](https://github.com/algorand/falcon) ⭐ 48 | 🐛 6 | 🌐 C | 📅 2026-07-01 - Deterministic FALCON implementation
 * [PQ Code Package](https://github.com/pq-code-package) - A Linux Foundation [PQCA](https://pqca.org/) project building high-assurance implementations of standards-track algorithms
@@ -298,7 +298,7 @@ Go:
 
 JavaScript:
 
-* [paulmillr/noble-post-quantum](https://github.com/paulmillr/noble-post-quantum) ⭐ 351 | 🐛 4 | 🌐 TypeScript | 📅 2026-08-29 - ML-KEM, ML-DSA, SLH-DSA, Falcon, and hybrids
+* [paulmillr/noble-post-quantum](https://github.com/paulmillr/noble-post-quantum) ⭐ 351 | 🐛 4 | 🌐 TypeScript | 📅 2026-08-30 - ML-KEM, ML-DSA, SLH-DSA, Falcon, and hybrids
 
 .NET:
 
@@ -306,7 +306,7 @@ JavaScript:
 
 Rust:
 
-* [orion-rs/orion](https://github.com/orion-rs/orion) ⭐ 722 | 🐛 11 | 🌐 Rust | 📅 2026-08-29 - ML-KEM
+* [orion-rs/orion](https://github.com/orion-rs/orion) ⭐ 722 | 🐛 9 | 🌐 Rust | 📅 2026-08-30 - ML-KEM
 * [RustCrypto/signatures](https://github.com/RustCrypto/signatures) ⭐ 655 | 🐛 14 | 🌐 Rust | 📅 2026-08-11 - ML-DSA, SLH-DSA, LMS
 * [RustCrypto/KEMs](https://github.com/RustCrypto/KEMs) ⭐ 108 | 🐛 15 | 🌐 Rust | 📅 2026-08-24 - ML-KEM, FrodoKem
 * [libcrux](https://crates.io/crates/libcrux) - Formally verified code
@@ -318,9 +318,9 @@ Zig:
 
 ### TLS implementations with PQC support
 
-* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 136,823 | 🐛 10,096 | 🌐 Go | 📅 2026-08-29
-* [aws/s2n-tls](https://github.com/aws/s2n-tls/) ⭐ 4,757 | 🐛 319 | 🌐 C | 📅 2026-08-28
-* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,922 | 🐛 226 | 🌐 C | 📅 2026-08-29
+* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 136,839 | 🐛 10,101 | 🌐 Go | 📅 2026-08-29
+* [aws/s2n-tls](https://github.com/aws/s2n-tls/) ⭐ 4,759 | 🐛 319 | 🌐 C | 📅 2026-08-28
+* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,923 | 🐛 228 | 🌐 C | 📅 2026-08-29
 * [BoringSSL](https://boringssl.googlesource.com/boringssl)
 * [OpenSSL](https://www.openssl.org/)
 
@@ -406,4 +406,4 @@ Zcash:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-29._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-30._
