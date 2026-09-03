@@ -4,7 +4,23 @@ A curated list of resources about post-quantum cryptography.
 
 To contribute, please file a PR. Please list items alphabetically.
 
-If you notice errors or obsolete content, please file PR or an Issue.
+If you notice errors or obsolete content, please file a PR or an issue.
+
+## Contents
+
+* [U.S. standards and guidelines](#us-standards-and-guidelines)
+  * [NIST standard algorithms](#nist-standard-algorithms)
+  * [Migration guidelines](#migration-guidelines)
+* [Other national initiatives](#other-national-initiatives)
+* [IETF standards and proposals](#ietf-standards-and-proposals)
+* [From tech organizations](#from-tech-organizations)
+* [PQC software](#pqc-software)
+  * [General-purpose libraries with PQC support](#general-purpose-libraries-with-pqc-support)
+  * [PQC libraries and language-specific software](#pqc-libraries-and-language-specific-software)
+  * [TLS implementations with PQC support](#tls-implementations-with-pqc-support)
+* [Blockchains](#blockchains)
+* [Research surveys](#research-surveys)
+* [Other resources](#other-resources)
 
 ## U.S. standards and guidelines
 
@@ -44,6 +60,7 @@ Signature schemes:
 * [DHS PQC approach and roadmap](https://www.dhs.gov/quantum)
 * [NIST and NCCoE's Migration to PQC](https://www.nccoe.nist.gov/sites/default/files/2022-07/pqc-migration-project-description-final.pdf)
 * [NIST Migration to Post-Quantum Cryptography](https://www.nccoe.nist.gov/crypto-agility-considerations-migrating-post-quantum-cryptographic-algorithms)
+* [NSA Post-Quantum Cybersecurity Resources](https://www.nsa.gov/Cybersecurity/Post-Quantum-Cybersecurity-Resources/)
 * [NSA PQC FAQ](https://media.defense.gov/2021/Aug/04/2002821837/-1/-1/1/Quantum_FAQs_20210804.PDF)
 * [Quantum Computing Cybersecurity Preparedness Act](https://www.congress.gov/bill/117th-congress/house-bill/7535/text)
 
@@ -54,7 +71,7 @@ Signature schemes:
 
 Australia:
 
-* [ASD: Planning for post-quantum cryptography ](https://www.cyber.gov.au/business-government/secure-design/quantum/planning-for-post-quantum-cryptography)
+* [ASD: Planning for post-quantum cryptography](https://www.cyber.gov.au/business-government/secure-design/quantum/planning-for-post-quantum-cryptography)
 
 Canada:
 
@@ -118,6 +135,10 @@ Netherlands:
 
 * [AIVD's PQC Migration Handbook](https://english.aivd.nl/documents/2024/12/3/the-pqc-migration-handbook)
 
+Norway:
+
+* [NSM Quantum Migration Guidance](https://nsm.no/fagomrader/digital-sikkerhet/kryptosikkerhet/kvantemigrasjon/)
+
 Russia:
 
 * [TC26 standards committee announces potential standards](https://tc26.ru/news/novosti-kriptografii/v-rossii-razrabotan-kriptograficheskiy-mekhanizm-sposobnyy-vyderzhivat-ataki-kvantovykh-kompyuterov.html):
@@ -129,7 +150,7 @@ Russia:
 Singapore:
 
 * [MAS Advisory on Addressing the Cybersecurity Risks Associated with Quantum](https://www.mas.gov.sg/-/media/mas-media-library/regulation/circulars/trpd/mas-quantum-advisory/mas-quantum-advisory.pdf)
-* [CSA Quantum-Safe Hanbook and Quantum Readiness Index](https://www.csa.gov.sg/resources/publications/quantum-safe-handbook-and-quantum-readiness-index/)
+* [CSA Quantum-Safe Handbook and Quantum Readiness Index](https://www.csa.gov.sg/resources/publications/quantum-safe-handbook-and-quantum-readiness-index/)
 
 South Korea:
 
@@ -164,10 +185,10 @@ RFCs:
 * RFC 8391: [XMSS: eXtended Merkle Signature Scheme](https://datatracker.ietf.org/doc/html/rfc8391)
 * RFC 8554: [Leighton-Micali Hash-Based Signatures](https://datatracker.ietf.org/doc/html/rfc8554)
 * RFC 8784: [Mixing Preshared Keys in the Internet Key Exchange Protocol Version 2 (IKEv2) for Post-quantum Security](https://datatracker.ietf.org/doc/html/rfc8784)
-* RFC 9370 [Multiple Key Exchanges in the Internet Key Exchange Protocol Version 2 (IKEv2)](https://datatracker.ietf.org/doc/html/rfc9370)
+* RFC 9370: [Multiple Key Exchanges in the Internet Key Exchange Protocol Version 2 (IKEv2)](https://datatracker.ietf.org/doc/html/rfc9370)
 * RFC 9881: [Internet X.509 Public Key Infrastructure -- Algorithm Identifiers for the Module-Lattice-Based Digital Signature Algorithm (ML-DSA)](https://datatracker.ietf.org/doc/html/rfc9881)
-* RFC 9935: [Internet X.509 Public Key Infrastructure - Algorithm Identifiers for the Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM) ](https://datatracker.ietf.org/doc/rfc9935/)
-* RFC 9794: [Terminology for Post-Quantum Traditional Hybrid Schemes ](https://www.rfc-editor.org/rfc/rfc9794.html)
+* RFC 9935: [Internet X.509 Public Key Infrastructure - Algorithm Identifiers for the Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM)](https://datatracker.ietf.org/doc/rfc9935/)
+* RFC 9794: [Terminology for Post-Quantum Traditional Hybrid Schemes](https://www.rfc-editor.org/rfc/rfc9794.html)
 * RFC 9941: [Secure Shell (SSH) Key Exchange Method Using Hybrid Streamlined NTRU Prime sntrup761 and X25519 with SHA-512: sntrup761x25519-sha512](https://www.rfc-editor.org/rfc/rfc9941.html)
 * RFC 9958: [Post-Quantum Cryptography for Engineers](https://www.rfc-editor.org/rfc/rfc9958.html)
 
@@ -175,15 +196,15 @@ Internet-Drafts:
 
 * I-D [Commercial National Security Algorithm (CNSA) Suite 2.0 Profile for Secure/Multipurpose Internet Mail Extensions (S/MIME)](https://datatracker.ietf.org/doc/draft-becker-cnsa2-smime-profile/)
 * I-D [Composite ML-DSA for use in X.509 Public Key Infrastructure](https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-sigs/)
-* I-D [Downgrade Prevention for the Internet Key Exchange Protocol Version 2 (IKEv2) ](https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-downgrade-prevention/)
+* I-D [Downgrade Prevention for the Internet Key Exchange Protocol Version 2 (IKEv2)](https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-downgrade-prevention/)
 * I-D [Framework to Integrate Post-quantum Key Exchanges into Internet Key Exchange Protocol Version 2 (IKEv2)](https://datatracker.ietf.org/doc/html/draft-tjhai-ipsecme-hybrid-qske-ikev2-04)
 * I-D [Hybrid key exchange in TLS 1.3](https://datatracker.ietf.org/doc/html/draft-ietf-tls-hybrid-design)
 * I-D [Hybrid Post-Quantum Key Encapsulation Methods (PQ KEM) for Transport Layer Security 1.2 (TLS)](https://datatracker.ietf.org/doc/html/draft-campagna-tls-bike-sike-hybrid)
 * I-D [Merkle Tree Certificates](https://datatracker.ietf.org/doc/draft-ietf-plants-merkle-tree-certs/)
-* I-D [ML-KEM Post-Quantum Key Agreement for TLS 1.3 ](https://datatracker.ietf.org/doc/draft-ietf-tls-mlkem/)
+* I-D [ML-KEM Post-Quantum Key Agreement for TLS 1.3](https://datatracker.ietf.org/doc/draft-ietf-tls-mlkem/)
 * I-D [Post-Quantum and Post-Quantum/Traditional Hybrid Algorithms for HPKE](https://datatracker.ietf.org/doc/draft-ietf-hpke-pq/)
 * I-D [Post-quantum hybrid ECDHE-MLKEM Key Agreement for TLSv1.3](https://datatracker.ietf.org/doc/draft-ietf-tls-ecdhe-mlkem/)
-* I-D [Post-quantum Key Exchange with ML-KEM in the Internet Key Exchange Protocol Version 2 (IKEv2) ](https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-mlkem/)
+* I-D [Post-quantum Key Exchange with ML-KEM in the Internet Key Exchange Protocol Version 2 (IKEv2)](https://datatracker.ietf.org/doc/draft-ietf-ipsecme-ikev2-mlkem/)
 * I-D [PQ/T Hybrid Key Exchange with ML-KEM in SSH](https://www.ietf.org/archive/id/draft-ietf-sshm-mlkem-hybrid-kex-10.html)
 * I-D [Use of Composite ML-DSA in TLS 1.3](https://datatracker.ietf.org/doc/draft-reddy-tls-composite-mldsa/)
 * I-D [Use of ML-DSA in TLS 1.3](https://datatracker.ietf.org/doc/draft-ietf-tls-mldsa/)
@@ -202,7 +223,7 @@ Apple:
 
 AWS:
 
-* [s2n-tls PQC implementation](https://github.com/aws/s2n-tls/tree/main/pq-crypto) ⭐ 4,761 | 🐛 318 | 🌐 C | 📅 2026-09-02
+* [s2n-tls PQC implementation](https://github.com/aws/s2n-tls/tree/main/pq-crypto) ⭐ 4,762 | 🐛 318 | 🌐 C | 📅 2026-09-03
 * [AWS KMS post-quantum TLS](https://aws.amazon.com/blogs/security/post-quantum-tls-now-supported-in-aws-kms/)
 * [AWS PQC Initiative](https://aws.amazon.com/security/post-quantum-cryptography/)
 * [AWS post-quantum cryptography migration plan](https://aws.amazon.com/blogs/security/aws-post-quantum-cryptography-migration-plan/)
@@ -282,9 +303,9 @@ Tencent:
 
 Does not include TLS implementations listed later:
 
-* [Botan](https://github.com/randombit/botan) ⭐ 3,311 | 🐛 261 | 🌐 C++ | 📅 2026-09-02 - C++
+* [Botan](https://github.com/randombit/botan) ⭐ 3,310 | 🐛 263 | 🌐 C++ | 📅 2026-09-02 - C++
 * [CIRCL (Cloudflare Interoperable, Reusable Cryptographic Library)](https://github.com/cloudflare/circl) ⭐ 1,714 | 🐛 62 | 🌐 Go | 📅 2026-08-24 - Go
-* [AWS-LC](https://github.com/aws/aws-lc/blob/main/crypto/fipsmodule/PQREADME.md) ⭐ 823 | 🐛 70 | 🌐 Assembly | 📅 2026-09-02 - Rust bindings in [aws-lc-rs](https://github.com/aws/aws-lc-rs) ⭐ 642 | 🐛 35 | 🌐 Rust | 📅 2026-09-01
+* [AWS-LC](https://github.com/aws/aws-lc/blob/main/crypto/fipsmodule/PQREADME.md) ⭐ 826 | 🐛 72 | 🌐 Assembly | 📅 2026-09-03 - Rust bindings in [aws-lc-rs](https://github.com/aws/aws-lc-rs) ⭐ 642 | 🐛 37 | 🌐 Rust | 📅 2026-09-01
 * [Bouncy Castle](https://www.bouncycastle.org/) - Java/C#
 * [Google Tink](https://github.com/tink-crypto) - Multi-language (C++, Go, Java, Obj-C, Python)
 
@@ -292,7 +313,7 @@ Does not include TLS implementations listed later:
 
 C:
 
-* [liboqs](https://github.com/open-quantum-safe/liboqs) ⭐ 3,051 | 🐛 117 | 🌐 C | 📅 2026-09-02 - From [Open Quantum Safe](https://openquantumsafe.org/)
+* [liboqs](https://github.com/open-quantum-safe/liboqs) ⭐ 3,052 | 🐛 114 | 🌐 C | 📅 2026-09-03 - From [Open Quantum Safe](https://openquantumsafe.org/)
 * [mupq/pqm4](https://github.com/mupq/pqm4) ⭐ 451 | 🐛 37 | 🌐 C | 📅 2026-09-01 - PQC library for the ARM Cortex-M4
 * [algorand/falcon](https://github.com/algorand/falcon) ⭐ 48 | 🐛 6 | 🌐 C | 📅 2026-07-01 - Deterministic FALCON implementation
 * [PQ Code Package](https://github.com/pq-code-package) - A Linux Foundation [PQCA](https://pqca.org/) project building high-assurance implementations of standards-track algorithms
@@ -323,9 +344,9 @@ Zig:
 
 ### TLS implementations with PQC support
 
-* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 137,127 | 🐛 10,124 | 🌐 Go | 📅 2026-09-02
-* [aws/s2n-tls](https://github.com/aws/s2n-tls/) ⭐ 4,761 | 🐛 318 | 🌐 C | 📅 2026-09-02
-* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,926 | 🐛 246 | 🌐 C | 📅 2026-09-02
+* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 137,497 | 🐛 10,139 | 🌐 Go | 📅 2026-09-03
+* [aws/s2n-tls](https://github.com/aws/s2n-tls/) ⭐ 4,762 | 🐛 318 | 🌐 C | 📅 2026-09-03
+* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,927 | 🐛 239 | 🌐 C | 📅 2026-09-03
 * [BoringSSL](https://boringssl.googlesource.com/boringssl)
 * [OpenSSL](https://www.openssl.org/)
 
@@ -342,7 +363,7 @@ Algorand:
 
 Bitcoin:
 
-* [BIP-?: SHRINCS: A Compact Hash-Based Signature Scheme](https://github.com/SHRINCS/shrincs-bip/blob/main/SHRINCS.md) ⭐ 13 | 🐛 24 | 🌐 Python | 📅 2026-09-01
+* [BIP-?: SHRINCS: A Compact Hash-Based Signature Scheme](https://github.com/SHRINCS/shrincs-bip/blob/main/SHRINCS.md) ⭐ 13 | 🐛 25 | 🌐 Python | 📅 2026-09-03
 * [BIP-360: Pay-to-Merkle-Root (P2MR)](https://bip360.org/)
 * [BIP-361: Post Quantum Migration and Legacy Signature Sunset](https://www.bip361.org/)
 * [Lattice-based Signature Schemes for Bitcoin](https://eprint.iacr.org/2026/1628)
@@ -362,7 +383,7 @@ Ethereum:
 
 NEAR:
 
-* [Preparing NEAR for the Quantum Computing Era](https://www.near.org/blog/making-near-protocol-post-quantum-safe): "The Near One team (...) decided to start with FIPS-204 (**ML-DSA**, prev.  Dilithium)"
+* [Preparing NEAR for the Quantum Computing Era](https://www.near.org/blog/making-near-protocol-post-quantum-safe): "The Near One team (...) decided to start with FIPS-204 (**ML-DSA**, prev. Dilithium)"
 
 Polkadot:
 
@@ -402,7 +423,7 @@ Zcash:
 ## Other resources
 
 * [\[PQ\]probe](https://pqprobe.com/app)
-* [awesome-quantum-software](https://github.com/qosf/awesome-quantum-software) ⭐ 2,384 | 🐛 7 | 📅 2026-08-24
+* [awesome-quantum-software](https://github.com/qosf/awesome-quantum-software) ⭐ 2,385 | 🐛 7 | 📅 2026-08-24
 * [PQC Crypto Registry](https://registry.projecteleven.com/) - By Project Eleven
 * [PQCrypto Usage & Deployment](https://ianix.com/pqcrypto/pqcrypto-deployment.html)
 * [PQC Forum](https://groups.google.com/a/list.nist.gov/g/pqc-forum) - NIST's discussion list
@@ -411,4 +432,4 @@ Zcash:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-02._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-03._
