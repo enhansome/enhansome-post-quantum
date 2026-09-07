@@ -223,7 +223,7 @@ Apple:
 
 AWS:
 
-* [s2n-tls PQC implementation](https://github.com/aws/s2n-tls/tree/main/pq-crypto) ⭐ 4,761 | 🐛 318 | 🌐 C | 📅 2026-09-04
+* [s2n-tls PQC implementation](https://github.com/aws/s2n-tls/tree/main/pq-crypto) ⭐ 4,761 | 🐛 318 | 🌐 C | 📅 2026-09-07
 * [AWS KMS post-quantum TLS](https://aws.amazon.com/blogs/security/post-quantum-tls-now-supported-in-aws-kms/)
 * [AWS PQC Initiative](https://aws.amazon.com/security/post-quantum-cryptography/)
 * [AWS post-quantum cryptography migration plan](https://aws.amazon.com/blogs/security/aws-post-quantum-cryptography-migration-plan/)
@@ -303,9 +303,9 @@ Tencent:
 
 Does not include TLS implementations listed later:
 
-* [Botan](https://github.com/randombit/botan) ⭐ 3,312 | 🐛 259 | 🌐 C++ | 📅 2026-09-06 - C++
-* [CIRCL (Cloudflare Interoperable, Reusable Cryptographic Library)](https://github.com/cloudflare/circl) ⭐ 1,715 | 🐛 64 | 🌐 Go | 📅 2026-08-24 - Go
-* [AWS-LC](https://github.com/aws/aws-lc/blob/main/crypto/fipsmodule/PQREADME.md) ⭐ 828 | 🐛 77 | 🌐 Assembly | 📅 2026-09-04 - Rust bindings in [aws-lc-rs](https://github.com/aws/aws-lc-rs) ⭐ 643 | 🐛 39 | 🌐 Rust | 📅 2026-09-01
+* [Botan](https://github.com/randombit/botan) ⭐ 3,310 | 🐛 263 | 🌐 C++ | 📅 2026-09-06 - C++
+* [CIRCL (Cloudflare Interoperable, Reusable Cryptographic Library)](https://github.com/cloudflare/circl) ⭐ 1,715 | 🐛 62 | 🌐 Go | 📅 2026-09-07 - Go
+* [AWS-LC](https://github.com/aws/aws-lc/blob/main/crypto/fipsmodule/PQREADME.md) ⭐ 828 | 🐛 78 | 🌐 Assembly | 📅 2026-09-04 - Rust bindings in [aws-lc-rs](https://github.com/aws/aws-lc-rs) ⭐ 644 | 🐛 39 | 🌐 Rust | 📅 2026-09-01
 * [Bouncy Castle](https://www.bouncycastle.org/) - Java/C#
 * [Google Tink](https://github.com/tink-crypto) - Multi-language (C++, Go, Java, Obj-C, Python)
 
@@ -313,8 +313,8 @@ Does not include TLS implementations listed later:
 
 C:
 
-* [liboqs](https://github.com/open-quantum-safe/liboqs) ⭐ 3,059 | 🐛 117 | 🌐 C | 📅 2026-09-06 - From [Open Quantum Safe](https://openquantumsafe.org/)
-* [mupq/pqm4](https://github.com/mupq/pqm4) ⭐ 451 | 🐛 37 | 🌐 C | 📅 2026-09-04 - PQC library for the ARM Cortex-M4
+* [liboqs](https://github.com/open-quantum-safe/liboqs) ⭐ 3,059 | 🐛 118 | 🌐 C | 📅 2026-09-06 - From [Open Quantum Safe](https://openquantumsafe.org/)
+* [mupq/pqm4](https://github.com/mupq/pqm4) ⭐ 451 | 🐛 38 | 🌐 C | 📅 2026-09-04 - PQC library for the ARM Cortex-M4
 * [algorand/falcon](https://github.com/algorand/falcon) ⭐ 48 | 🐛 7 | 🌐 C | 📅 2026-07-01 - Deterministic FALCON implementation
 * [PQ Code Package](https://github.com/pq-code-package) - A Linux Foundation [PQCA](https://pqca.org/) project building high-assurance implementations of standards-track algorithms
 
@@ -324,7 +324,7 @@ Go:
 
 JavaScript:
 
-* [paulmillr/noble-post-quantum](https://github.com/paulmillr/noble-post-quantum) ⭐ 352 | 🐛 4 | 🌐 TypeScript | 📅 2026-08-31 - ML-KEM, ML-DSA, SLH-DSA, Falcon, and hybrids
+* [paulmillr/noble-post-quantum](https://github.com/paulmillr/noble-post-quantum) ⭐ 353 | 🐛 4 | 🌐 TypeScript | 📅 2026-08-31 - ML-KEM, ML-DSA, SLH-DSA, Falcon, and hybrids
 
 .NET:
 
@@ -333,7 +333,7 @@ JavaScript:
 Rust:
 
 * [orion-rs/orion](https://github.com/orion-rs/orion) ⭐ 722 | 🐛 9 | 🌐 Rust | 📅 2026-09-02 - ML-KEM, ML-DSA
-* [RustCrypto/signatures](https://github.com/RustCrypto/signatures) ⭐ 659 | 🐛 18 | 🌐 Rust | 📅 2026-09-01 - ML-DSA, SLH-DSA, LMS
+* [RustCrypto/signatures](https://github.com/RustCrypto/signatures) ⭐ 659 | 🐛 18 | 🌐 Rust | 📅 2026-09-07 - ML-DSA, SLH-DSA, LMS
 * [RustCrypto/KEMs](https://github.com/RustCrypto/KEMs) ⭐ 109 | 🐛 18 | 🌐 Rust | 📅 2026-08-31 - ML-KEM, FrodoKem
 * [libcrux](https://crates.io/crates/libcrux) - Formally verified code
 
@@ -344,9 +344,9 @@ Zig:
 
 ### TLS implementations with PQC support
 
-* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 137,572 | 🐛 10,124 | 🌐 Go | 📅 2026-09-05
-* [aws/s2n-tls](https://github.com/aws/s2n-tls/) ⭐ 4,761 | 🐛 318 | 🌐 C | 📅 2026-09-04
-* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,927 | 🐛 242 | 🌐 C | 📅 2026-09-06
+* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 138,022 | 🐛 10,123 | 🌐 Go | 📅 2026-09-05
+* [aws/s2n-tls](https://github.com/aws/s2n-tls/) ⭐ 4,761 | 🐛 318 | 🌐 C | 📅 2026-09-07
+* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,930 | 🐛 242 | 🌐 C | 📅 2026-09-07
 * [BoringSSL](https://boringssl.googlesource.com/boringssl)
 * [OpenSSL](https://www.openssl.org/)
 
@@ -363,7 +363,7 @@ Algorand:
 
 Bitcoin:
 
-* [BIP-?: SHRINCS: A Compact Hash-Based Signature Scheme](https://github.com/SHRINCS/shrincs-bip/blob/main/SHRINCS.md) ⭐ 13 | 🐛 24 | 🌐 Python | 📅 2026-09-06
+* [BIP-?: SHRINCS: A Compact Hash-Based Signature Scheme](https://github.com/SHRINCS/shrincs-bip/blob/main/SHRINCS.md) ⭐ 13 | 🐛 21 | 🌐 Python | 📅 2026-09-07
 * [BIP-360: Pay-to-Merkle-Root (P2MR)](https://bip360.org/)
 * [BIP-361: Post Quantum Migration and Legacy Signature Sunset](https://www.bip361.org/)
 * [Lattice-based Signature Schemes for Bitcoin](https://eprint.iacr.org/2026/1628)
@@ -433,4 +433,4 @@ Zcash:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-06._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-07._
