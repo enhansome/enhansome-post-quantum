@@ -82,6 +82,7 @@ Canada:
 China:
 
 * [Next-Generation Commercial Cryptographic Algorithms Program (NGCC)](https://www.niccs.org.cn/en/)
+* [NGCC Round 1 Candidates](https://www.niccs.org.cn/niccs/Round1Additional/pc/list.html)
 
 Czech Republic:
 
@@ -223,7 +224,7 @@ Apple:
 
 AWS:
 
-* [s2n-tls PQC implementation](https://github.com/aws/s2n-tls/tree/main/pq-crypto) ⭐ 4,765 | 🐛 306 | 🌐 C | 📅 2026-09-19
+* [s2n-tls PQC implementation](https://github.com/aws/s2n-tls/tree/main/pq-crypto) ⭐ 4,765 | 🐛 309 | 🌐 C | 📅 2026-09-21
 * [AWS KMS post-quantum TLS](https://aws.amazon.com/blogs/security/post-quantum-tls-now-supported-in-aws-kms/)
 * [AWS PQC Initiative](https://aws.amazon.com/security/post-quantum-cryptography/)
 * [AWS post-quantum cryptography migration plan](https://aws.amazon.com/blogs/security/aws-post-quantum-cryptography-migration-plan/)
@@ -304,9 +305,9 @@ Tencent:
 
 Does not include TLS implementations listed later:
 
-* [Botan](https://github.com/randombit/botan) ⭐ 3,311 | 🐛 264 | 🌐 C++ | 📅 2026-09-20 - C++
-* [CIRCL (Cloudflare Interoperable, Reusable Cryptographic Library)](https://github.com/cloudflare/circl) ⭐ 1,718 | 🐛 63 | 🌐 Go | 📅 2026-09-09 - Go
-* [AWS-LC](https://github.com/aws/aws-lc/blob/main/crypto/fipsmodule/PQREADME.md) ⭐ 833 | 🐛 86 | 🌐 Assembly | 📅 2026-09-18 - Rust bindings in [aws-lc-rs](https://github.com/aws/aws-lc-rs) ⭐ 652 | 🐛 34 | 🌐 Rust | 📅 2026-09-17
+* [Botan](https://github.com/randombit/botan) ⭐ 3,311 | 🐛 265 | 🌐 C++ | 📅 2026-09-21 - C++
+* [CIRCL (Cloudflare Interoperable, Reusable Cryptographic Library)](https://github.com/cloudflare/circl) ⭐ 1,719 | 🐛 63 | 🌐 Go | 📅 2026-09-09 - Go
+* [AWS-LC](https://github.com/aws/aws-lc/blob/main/crypto/fipsmodule/PQREADME.md) ⭐ 833 | 🐛 86 | 🌐 Assembly | 📅 2026-09-21 - Rust bindings in [aws-lc-rs](https://github.com/aws/aws-lc-rs) ⭐ 652 | 🐛 35 | 🌐 Rust | 📅 2026-09-21
 * [Bouncy Castle](https://www.bouncycastle.org/) - Java/C#
 * [Google Tink](https://github.com/tink-crypto) - Multi-language (C++, Go, Java, Obj-C, Python)
 
@@ -314,7 +315,7 @@ Does not include TLS implementations listed later:
 
 C:
 
-* [liboqs](https://github.com/open-quantum-safe/liboqs) ⭐ 3,066 | 🐛 109 | 🌐 C | 📅 2026-09-20 - From [Open Quantum Safe](https://openquantumsafe.org/)
+* [liboqs](https://github.com/open-quantum-safe/liboqs) ⭐ 3,068 | 🐛 108 | 🌐 C | 📅 2026-09-21 - From [Open Quantum Safe](https://openquantumsafe.org/)
 * [mupq/pqm4](https://github.com/mupq/pqm4) ⭐ 453 | 🐛 34 | 🌐 C | 📅 2026-09-04 - PQC library for the ARM Cortex-M4
 * [algorand/falcon](https://github.com/algorand/falcon) ⭐ 48 | 🐛 7 | 🌐 C | 📅 2026-07-01 - Deterministic FALCON implementation
 * [PQ Code Package](https://github.com/pq-code-package) - A Linux Foundation [PQCA](https://pqca.org/) project building high-assurance implementations of standards-track algorithms
@@ -333,9 +334,9 @@ JavaScript:
 
 Rust:
 
-* [orion-rs/orion](https://github.com/orion-rs/orion) ⭐ 722 | 🐛 9 | 🌐 Rust | 📅 2026-09-17 - ML-KEM, ML-DSA
-* [RustCrypto/signatures](https://github.com/RustCrypto/signatures) ⭐ 661 | 🐛 19 | 🌐 Rust | 📅 2026-09-14 - ML-DSA, SLH-DSA, LMS
-* [RustCrypto/KEMs](https://github.com/RustCrypto/KEMs) ⭐ 111 | 🐛 19 | 🌐 Rust | 📅 2026-09-14 - ML-KEM, FrodoKem
+* [orion-rs/orion](https://github.com/orion-rs/orion) ⭐ 722 | 🐛 9 | 🌐 Rust | 📅 2026-09-21 - ML-KEM, ML-DSA
+* [RustCrypto/signatures](https://github.com/RustCrypto/signatures) ⭐ 661 | 🐛 19 | 🌐 Rust | 📅 2026-09-21 - ML-DSA, SLH-DSA, LMS
+* [RustCrypto/KEMs](https://github.com/RustCrypto/KEMs) ⭐ 111 | 🐛 20 | 🌐 Rust | 📅 2026-09-14 - ML-KEM, FrodoKem
 * [libcrux](https://crates.io/crates/libcrux) - Formally verified code
 
 Zig:
@@ -345,9 +346,9 @@ Zig:
 
 ### TLS implementations with PQC support
 
-* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 138,910 | 🐛 10,155 | 🌐 Go | 📅 2026-09-20
-* [aws/s2n-tls](https://github.com/aws/s2n-tls/) ⭐ 4,765 | 🐛 306 | 🌐 C | 📅 2026-09-19
-* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,939 | 🐛 250 | 🌐 C | 📅 2026-09-19
+* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 138,928 | 🐛 10,167 | 🌐 Go | 📅 2026-09-21
+* [aws/s2n-tls](https://github.com/aws/s2n-tls/) ⭐ 4,765 | 🐛 309 | 🌐 C | 📅 2026-09-21
+* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,940 | 🐛 251 | 🌐 C | 📅 2026-09-21
 * [BoringSSL](https://boringssl.googlesource.com/boringssl)
 * [OpenSSL](https://www.openssl.org/)
 
@@ -368,7 +369,7 @@ Algorand:
 
 Bitcoin:
 
-* [BIP-?: SHRINCS: A Compact Hash-Based Signature Scheme](https://github.com/SHRINCS/shrincs-bip/blob/main/SHRINCS.md) ⭐ 16 | 🐛 22 | 🌐 Python | 📅 2026-09-18
+* [BIP-?: SHRINCS: A Compact Hash-Based Signature Scheme](https://github.com/SHRINCS/shrincs-bip/blob/main/SHRINCS.md) ⭐ 16 | 🐛 24 | 🌐 Python | 📅 2026-09-21
 * [BIP-360: Pay-to-Merkle-Root (P2MR)](https://bip360.org/)
 * [BIP-361: Post Quantum Migration and Legacy Signature Sunset](https://www.bip361.org/)
 * [Lattice-based Signature Schemes for Bitcoin](https://eprint.iacr.org/2026/1628)
@@ -377,7 +378,7 @@ Bitcoin:
 Circle/Arc:
 
 * [Circle’s Post-Quantum Security
-  Roadmap](https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/PDFs/quantum_paper.pdf):
+  Roadmap](https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/PDFs/quantum_paper.pdf) -
   "Arc will deploy a precompiled post-quantum signature verifier on mainnet (**SLH-DSA-SHA2-128s**) so smart accounts can validate post-quantum signatures on-chain."
 
 Ethereum:
@@ -388,12 +389,12 @@ Ethereum:
 
 NEAR:
 
-* [Preparing NEAR for the Quantum Computing Era](https://www.near.org/blog/making-near-protocol-post-quantum-safe): "The Near One team (...) decided to start with FIPS-204 (**ML-DSA**, prev. Dilithium)"
+* [Preparing NEAR for the Quantum Computing Era](https://www.near.org/blog/making-near-protocol-post-quantum-safe) - "The Near One team (...) decided to start with FIPS-204 (**ML-DSA**, prev. Dilithium)"
 
 Polkadot:
 
 * [Post Quantum Cryptography Roadmap for Polkadot and
-  JAM](https://forum.polkadot.network/t/post-quantum-cryptography-roadmap-for-polkadot-and-jam/13232):
+  JAM](https://forum.polkadot.network/t/post-quantum-cryptography-roadmap-for-polkadot-and-jam/13232) -
   "We use both \[**Falcon and Dilithium**] in different parts of the Polkadot protocol to replace all signature schemes."
 
 Ripple:
@@ -402,13 +403,13 @@ Ripple:
 
 Solana:
 
-* [Quantumglow: Will Solana’s Performance Survive Quantum Computing?](https://www.anza.xyz/blog/quantumglow-will-solana%E2%80%99s-performance-survive-quantum-computing): "we propose a **hash-based (XMSS-style)** signature scheme tailored specifically to Quantumglow"
+* [Quantumglow: Will Solana’s Performance Survive Quantum Computing?](https://www.anza.xyz/blog/quantumglow-will-solana%E2%80%99s-performance-survive-quantum-computing) - "we propose a **hash-based (XMSS-style)** signature scheme tailored specifically to Quantumglow"
 * [Securing Solana Against a Powerful Quantum Adversary](https://www.anza.xyz/blog/securing-solana-against-a-powerful-quantum-adversary)
-* [Solana’s Quantum Readiness](https://solana.com/news/quantum-readiness): "The alignment around **Falcon** reflects extensive research around Solana’s quantum resiliency. "
+* [Solana’s Quantum Readiness](https://solana.com/news/quantum-readiness) - "The alignment around **Falcon** reflects extensive research around Solana’s quantum resiliency. "
 
 Sui:
 
-* [Making Sui Quantum Ready](https://www.sui.io/blog/making-sui-quantum-ready): "Sui is adding \[...] **ML-DSA-65** as a native protocol signature scheme for everyday accounts, and **hash-based SLH-DSA-SHA2-128s** inside Move smart contracts for high-value vaults."
+* [Making Sui Quantum Ready](https://www.sui.io/blog/making-sui-quantum-ready) - "Sui is adding \[...] **ML-DSA-65** as a native protocol signature scheme for everyday accounts, and **hash-based SLH-DSA-SHA2-128s** inside Move smart contracts for high-value vaults."
 
 Zcash:
 
@@ -416,14 +417,14 @@ Zcash:
 
 ## Research surveys
 
-* [A Decade of Lattice-Based Cryptography](https://eprint.iacr.org/2015/939) by Chris Peikert
-* [A Survey on Code-Based Cryptography](https://arxiv.org/abs/2201.07119) by Violetta Weger, Niklas Gassner and Joachim Rosenthal
-* [Mathematics of Isogeny-Based Cryptography](https://arxiv.org/abs/1711.04062) by Luca de Feo
-* [Post-Quantum Cryptography](https://www.researchgate.net/profile/Nicolas-Sendrier-2/publication/226115302_Code-Based_Cryptography/links/540d62d50cf2df04e7549388/Code-Based-Cryptography.pdf) by Daniel J. Bernstein, Johannes Buchmann and Erik Dahmen
-* [Post-quantum cryptography—dealing with the fallout of physics success](https://eprint.iacr.org/2017/314) by Daniel J. Bernstein and Tanja Lange
-* [Securing Elliptic Curve Cryptocurrencies against Quantum Vulnerabilities: Resource Estimates and Mitigations](https://quantumai.google/static/site-assets/downloads/cryptocurrency-whitepaper.pdf) by Google Quantum AI
-* [The Learning with Errors Problem](https://cims.nyu.edu/~regev/papers/lwesurvey.pdf) by Oded Regev
-* [A Gentle Introduction to Lattice-Based Cryptography](https://cryptography101.ca/wp-content/uploads/lattice-based-cryptography.pdf) by Alfred Menezes
+* [A Decade of Lattice-Based Cryptography](https://eprint.iacr.org/2015/939) - By Chris Peikert
+* [A Survey on Code-Based Cryptography](https://arxiv.org/abs/2201.07119) - By Violetta Weger, Niklas Gassner and Joachim Rosenthal
+* [Mathematics of Isogeny-Based Cryptography](https://arxiv.org/abs/1711.04062) - By Luca de Feo
+* [Post-Quantum Cryptography](https://www.researchgate.net/profile/Nicolas-Sendrier-2/publication/226115302_Code-Based_Cryptography/links/540d62d50cf2df04e7549388/Code-Based-Cryptography.pdf) - By Daniel J. Bernstein, Johannes Buchmann and Erik Dahmen
+* [Post-quantum cryptography—dealing with the fallout of physics success](https://eprint.iacr.org/2017/314) - By Daniel J. Bernstein and Tanja Lange
+* [Securing Elliptic Curve Cryptocurrencies against Quantum Vulnerabilities: Resource Estimates and Mitigations](https://quantumai.google/static/site-assets/downloads/cryptocurrency-whitepaper.pdf) - By Google Quantum AI
+* [The Learning with Errors Problem](https://cims.nyu.edu/~regev/papers/lwesurvey.pdf) - By Oded Regev
+* [A Gentle Introduction to Lattice-Based Cryptography](https://cryptography101.ca/wp-content/uploads/lattice-based-cryptography.pdf) - By Alfred Menezes
 
 ## Other resources
 
@@ -439,4 +440,4 @@ Zcash:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-20._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-21._
