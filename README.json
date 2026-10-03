@@ -49,7 +49,7 @@
             "open_issues": 2,
             "owner": "microsoft",
             "repo": "PQCrypto-LWEKE",
-            "stars": 164,
+            "stars": 165,
             "topics": []
           },
           "first_seen": "2026-08-29T02:15:53.883Z"
@@ -74,8 +74,8 @@
                 "id": 8608254,
                 "language": "C++",
                 "license": "BSD-2-Clause",
-                "last_commit": "2026-10-03T01:57:46Z",
-                "open_issues": 268,
+                "last_commit": "2026-10-03T19:14:17Z",
+                "open_issues": 269,
                 "owner": "randombit",
                 "repo": "botan",
                 "stars": 3321,
@@ -106,7 +106,7 @@
                 "open_issues": 65,
                 "owner": "cloudflare",
                 "repo": "circl",
-                "stars": 1724,
+                "stars": 1725,
                 "topics": [
                   "circl",
                   "cryptography",
@@ -146,7 +146,7 @@
                 "open_issues": 109,
                 "owner": "aws",
                 "repo": "aws-lc",
-                "stars": 836,
+                "stars": 837,
                 "topics": []
               },
               "first_seen": "2026-08-29T02:15:53.883Z"
@@ -200,7 +200,7 @@
                 "open_issues": 33,
                 "owner": "mupq",
                 "repo": "pqm4",
-                "stars": 455,
+                "stars": 456,
                 "topics": []
               },
               "first_seen": "2026-08-29T02:15:53.883Z"
@@ -284,7 +284,7 @@
                 "open_issues": 9,
                 "owner": "orion-rs",
                 "repo": "orion",
-                "stars": 723,
+                "stars": 724,
                 "topics": [
                   "aead",
                   "argon2",
@@ -377,10 +377,10 @@
                 "language": "Go",
                 "license": "BSD-3-Clause",
                 "last_commit": "2026-10-02T21:55:53Z",
-                "open_issues": 10283,
+                "open_issues": 10293,
                 "owner": "golang",
                 "repo": "go",
-                "stars": 139133,
+                "stars": 139163,
                 "topics": [
                   "go",
                   "golang",
@@ -432,11 +432,11 @@
                 "id": 28928522,
                 "language": "C",
                 "license": "GPL-3.0",
-                "last_commit": "2026-10-03T03:04:40Z",
-                "open_issues": 240,
+                "last_commit": "2026-10-03T20:13:34Z",
+                "open_issues": 239,
                 "owner": "wolfSSL",
                 "repo": "wolfssl",
-                "stars": 2956,
+                "stars": 2958,
                 "topics": [
                   "c-library",
                   "cipher-suites",
@@ -643,7 +643,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-03T05:01:58.058Z",
+    "last_updated": "2026-10-03T22:10:59.168Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of resources about post-quantum cryptography.",
