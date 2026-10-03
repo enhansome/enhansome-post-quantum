@@ -6,7 +6,7 @@
         {
           "node_type": "item",
           "title": "s2n-tls PQC implementation",
-          "description": null,
+          "description": "aws/s2n-tls",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -36,7 +36,7 @@
         {
           "node_type": "item",
           "title": "LWEKE Reference implementations",
-          "description": null,
+          "description": "microsoft/PQCrypto-LWEKE",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -74,11 +74,11 @@
                 "id": 8608254,
                 "language": "C++",
                 "license": "BSD-2-Clause",
-                "last_commit": "2026-10-02T22:56:30Z",
-                "open_issues": 267,
+                "last_commit": "2026-10-03T01:57:46Z",
+                "open_issues": 268,
                 "owner": "randombit",
                 "repo": "botan",
-                "stars": 3320,
+                "stars": 3321,
                 "topics": [
                   "c-plus-plus",
                   "crypto",
@@ -143,7 +143,7 @@
                 "language": "Assembly",
                 "license": "NOASSERTION",
                 "last_commit": "2026-10-02T22:44:11Z",
-                "open_issues": 105,
+                "open_issues": 109,
                 "owner": "aws",
                 "repo": "aws-lc",
                 "stars": 836,
@@ -174,7 +174,7 @@
                 "open_issues": 114,
                 "owner": "open-quantum-safe",
                 "repo": "liboqs",
-                "stars": 3074,
+                "stars": 3075,
                 "topics": [
                   "cryptography",
                   "key-exchange-algorithms",
@@ -322,7 +322,7 @@
                 "language": "Rust",
                 "license": null,
                 "last_commit": "2026-09-28T14:33:05Z",
-                "open_issues": 23,
+                "open_issues": 24,
                 "owner": "RustCrypto",
                 "repo": "signatures",
                 "stars": 662,
@@ -367,7 +367,7 @@
             {
               "node_type": "item",
               "title": "Go crypto/tls",
-              "description": null,
+              "description": "golang/go",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -377,10 +377,10 @@
                 "language": "Go",
                 "license": "BSD-3-Clause",
                 "last_commit": "2026-10-02T21:55:53Z",
-                "open_issues": 10278,
+                "open_issues": 10283,
                 "owner": "golang",
                 "repo": "go",
-                "stars": 139127,
+                "stars": 139133,
                 "topics": [
                   "go",
                   "golang",
@@ -393,7 +393,7 @@
             {
               "node_type": "item",
               "title": "aws/s2n-tls",
-              "description": null,
+              "description": "aws/s2n-tls",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -423,7 +423,7 @@
             {
               "node_type": "item",
               "title": "wolfSSL",
-              "description": null,
+              "description": "wolfSSL/wolfssl",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -432,8 +432,8 @@
                 "id": 28928522,
                 "language": "C",
                 "license": "GPL-3.0",
-                "last_commit": "2026-10-02T21:16:35Z",
-                "open_issues": 245,
+                "last_commit": "2026-10-03T03:04:40Z",
+                "open_issues": 240,
                 "owner": "wolfSSL",
                 "repo": "wolfssl",
                 "stars": 2956,
@@ -476,7 +476,7 @@
         {
           "node_type": "item",
           "title": "Deterministic Falcon Signatures",
-          "description": null,
+          "description": "algorandfoundation/specs",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -503,7 +503,7 @@
         {
           "node_type": "item",
           "title": "BIP-?: SHRINCS: A Compact Hash-Based Signature Scheme",
-          "description": null,
+          "description": "SHRINCS/shrincs-bip",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -536,7 +536,7 @@
         {
           "node_type": "item",
           "title": "awesome-quantum-software",
-          "description": null,
+          "description": "qosf/awesome-quantum-software",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -577,7 +577,7 @@
         {
           "node_type": "item",
           "title": "Awesome PQC Resources",
-          "description": null,
+          "description": "bro256/Awesome-PQC-Resources",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -643,7 +643,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-02T23:01:23.143Z",
+    "last_updated": "2026-10-03T05:01:58.058Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of resources about post-quantum cryptography.",
