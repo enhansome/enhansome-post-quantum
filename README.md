@@ -224,7 +224,7 @@ Apple:
 
 AWS:
 
-* [s2n-tls PQC implementation](https://github.com/aws/s2n-tls/tree/main/pq-crypto) ⭐ 4,769 | 🐛 300 | 🌐 C | 📅 2026-10-06
+* [s2n-tls PQC implementation](https://github.com/aws/s2n-tls/tree/main/pq-crypto) ⭐ 4,770 | 🐛 300 | 🌐 C | 📅 2026-10-06
 * [AWS KMS post-quantum TLS](https://aws.amazon.com/blogs/security/post-quantum-tls-now-supported-in-aws-kms/)
 * [AWS PQC Initiative](https://aws.amazon.com/security/post-quantum-cryptography/)
 * [AWS post-quantum cryptography migration plan](https://aws.amazon.com/blogs/security/aws-post-quantum-cryptography-migration-plan/)
@@ -305,9 +305,9 @@ Tencent:
 
 Does not include TLS implementations listed later:
 
-* [Botan](https://github.com/randombit/botan) ⭐ 3,322 | 🐛 270 | 🌐 C++ | 📅 2026-10-06 - C++
+* [Botan](https://github.com/randombit/botan) ⭐ 3,322 | 🐛 272 | 🌐 C++ | 📅 2026-10-06 - C++
 * [CIRCL (Cloudflare Interoperable, Reusable Cryptographic Library)](https://github.com/cloudflare/circl) ⭐ 1,725 | 🐛 66 | 🌐 Go | 📅 2026-09-28 - Go
-* [AWS-LC](https://github.com/aws/aws-lc/blob/main/crypto/fipsmodule/PQREADME.md) ⭐ 837 | 🐛 105 | 🌐 Assembly | 📅 2026-10-05 - Rust bindings in [aws-lc-rs](https://github.com/aws/aws-lc-rs) ⭐ 655 | 🐛 38 | 🌐 Rust | 📅 2026-10-05
+* [AWS-LC](https://github.com/aws/aws-lc/blob/main/crypto/fipsmodule/PQREADME.md) ⭐ 837 | 🐛 102 | 🌐 Assembly | 📅 2026-10-06 - Rust bindings in [aws-lc-rs](https://github.com/aws/aws-lc-rs) ⭐ 656 | 🐛 38 | 🌐 Rust | 📅 2026-10-06
 * [Bouncy Castle](https://www.bouncycastle.org/) - Java/C#
 * [Google Tink](https://github.com/tink-crypto) - Multi-language (C++, Go, Java, Obj-C, Python)
 
@@ -315,7 +315,7 @@ Does not include TLS implementations listed later:
 
 C:
 
-* [liboqs](https://github.com/open-quantum-safe/liboqs) ⭐ 3,078 | 🐛 118 | 🌐 C | 📅 2026-10-05 - From [Open Quantum Safe](https://openquantumsafe.org/)
+* [liboqs](https://github.com/open-quantum-safe/liboqs) ⭐ 3,078 | 🐛 114 | 🌐 C | 📅 2026-10-06 - From [Open Quantum Safe](https://openquantumsafe.org/)
 * [mupq/pqm4](https://github.com/mupq/pqm4) ⭐ 456 | 🐛 33 | 🌐 C | 📅 2026-10-01 - PQC library for the ARM Cortex-M4
 * [algorand/falcon](https://github.com/algorand/falcon) ⭐ 48 | 🐛 5 | 🌐 C | 📅 2026-09-30 - Deterministic FALCON implementation
 * [PQ Code Package](https://github.com/pq-code-package) - A Linux Foundation [PQCA](https://pqca.org/) project building high-assurance implementations of standards-track algorithms
@@ -326,7 +326,7 @@ Go:
 
 JavaScript:
 
-* [paulmillr/noble-post-quantum](https://github.com/paulmillr/noble-post-quantum) ⭐ 358 | 🐛 6 | 🌐 TypeScript | 📅 2026-08-31 - ML-KEM, ML-DSA, SLH-DSA, Falcon, and hybrids
+* [paulmillr/noble-post-quantum](https://github.com/paulmillr/noble-post-quantum) ⭐ 359 | 🐛 6 | 🌐 TypeScript | 📅 2026-08-31 - ML-KEM, ML-DSA, SLH-DSA, Falcon, and hybrids
 
 .NET:
 
@@ -346,9 +346,9 @@ Zig:
 
 ### TLS implementations with PQC support
 
-* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 139,292 | 🐛 10,316 | 🌐 Go | 📅 2026-10-06
-* [aws/s2n-tls](https://github.com/aws/s2n-tls/) ⭐ 4,769 | 🐛 300 | 🌐 C | 📅 2026-10-06
-* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,958 | 🐛 234 | 🌐 C | 📅 2026-10-06
+* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 139,320 | 🐛 10,309 | 🌐 Go | 📅 2026-10-06
+* [aws/s2n-tls](https://github.com/aws/s2n-tls/) ⭐ 4,770 | 🐛 300 | 🌐 C | 📅 2026-10-06
+* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,959 | 🐛 239 | 🌐 C | 📅 2026-10-06
 * [BoringSSL](https://boringssl.googlesource.com/boringssl)
 * [OpenSSL](https://www.openssl.org/)
 
@@ -369,7 +369,7 @@ Algorand:
 
 Bitcoin:
 
-* [BIP-?: SHRINCS: A Compact Hash-Based Signature Scheme](https://github.com/SHRINCS/shrincs-bip/blob/main/SHRINCS.md) ⭐ 16 | 🐛 23 | 🌐 Python | 📅 2026-10-01
+* [BIP-?: SHRINCS: A Compact Hash-Based Signature Scheme](https://github.com/SHRINCS/shrincs-bip/blob/main/SHRINCS.md) ⭐ 16 | 🐛 24 | 🌐 Python | 📅 2026-10-01
 * [BIP-360: Pay-to-Merkle-Root (P2MR)](https://bip360.org/)
 * [BIP-361: Post Quantum Migration and Legacy Signature Sunset](https://www.bip361.org/)
 * [Lattice-based Signature Schemes for Bitcoin](https://eprint.iacr.org/2026/1628)
