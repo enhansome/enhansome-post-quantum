@@ -305,9 +305,9 @@ Tencent:
 
 Does not include TLS implementations listed later:
 
-* [Botan](https://github.com/randombit/botan) ⭐ 3,321 | 🐛 271 | 🌐 C++ | 📅 2026-10-06 - C++
+* [Botan](https://github.com/randombit/botan) ⭐ 3,322 | 🐛 270 | 🌐 C++ | 📅 2026-10-06 - C++
 * [CIRCL (Cloudflare Interoperable, Reusable Cryptographic Library)](https://github.com/cloudflare/circl) ⭐ 1,725 | 🐛 66 | 🌐 Go | 📅 2026-09-28 - Go
-* [AWS-LC](https://github.com/aws/aws-lc/blob/main/crypto/fipsmodule/PQREADME.md) ⭐ 837 | 🐛 105 | 🌐 Assembly | 📅 2026-10-05 - Rust bindings in [aws-lc-rs](https://github.com/aws/aws-lc-rs) ⭐ 654 | 🐛 38 | 🌐 Rust | 📅 2026-10-05
+* [AWS-LC](https://github.com/aws/aws-lc/blob/main/crypto/fipsmodule/PQREADME.md) ⭐ 837 | 🐛 105 | 🌐 Assembly | 📅 2026-10-05 - Rust bindings in [aws-lc-rs](https://github.com/aws/aws-lc-rs) ⭐ 655 | 🐛 38 | 🌐 Rust | 📅 2026-10-05
 * [Bouncy Castle](https://www.bouncycastle.org/) - Java/C#
 * [Google Tink](https://github.com/tink-crypto) - Multi-language (C++, Go, Java, Obj-C, Python)
 
@@ -326,7 +326,7 @@ Go:
 
 JavaScript:
 
-* [paulmillr/noble-post-quantum](https://github.com/paulmillr/noble-post-quantum) ⭐ 357 | 🐛 6 | 🌐 TypeScript | 📅 2026-08-31 - ML-KEM, ML-DSA, SLH-DSA, Falcon, and hybrids
+* [paulmillr/noble-post-quantum](https://github.com/paulmillr/noble-post-quantum) ⭐ 358 | 🐛 6 | 🌐 TypeScript | 📅 2026-08-31 - ML-KEM, ML-DSA, SLH-DSA, Falcon, and hybrids
 
 .NET:
 
@@ -346,9 +346,9 @@ Zig:
 
 ### TLS implementations with PQC support
 
-* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 139,267 | 🐛 10,310 | 🌐 Go | 📅 2026-10-05
+* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 139,292 | 🐛 10,316 | 🌐 Go | 📅 2026-10-06
 * [aws/s2n-tls](https://github.com/aws/s2n-tls/) ⭐ 4,769 | 🐛 300 | 🌐 C | 📅 2026-10-06
-* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,958 | 🐛 233 | 🌐 C | 📅 2026-10-05
+* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,958 | 🐛 234 | 🌐 C | 📅 2026-10-06
 * [BoringSSL](https://boringssl.googlesource.com/boringssl)
 * [OpenSSL](https://www.openssl.org/)
 

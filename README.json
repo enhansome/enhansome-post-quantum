@@ -74,11 +74,11 @@
                 "id": 8608254,
                 "language": "C++",
                 "license": "BSD-2-Clause",
-                "last_commit": "2026-10-06T00:16:42Z",
-                "open_issues": 271,
+                "last_commit": "2026-10-06T03:02:52Z",
+                "open_issues": 270,
                 "owner": "randombit",
                 "repo": "botan",
-                "stars": 3321,
+                "stars": 3322,
                 "topics": [
                   "c-plus-plus",
                   "crypto",
@@ -242,7 +242,7 @@
                 "open_issues": 6,
                 "owner": "paulmillr",
                 "repo": "noble-post-quantum",
-                "stars": 357,
+                "stars": 358,
                 "topics": [
                   "dilithium",
                   "falcon",
@@ -376,11 +376,11 @@
                 "id": 23096959,
                 "language": "Go",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-10-05T22:48:10Z",
-                "open_issues": 10310,
+                "last_commit": "2026-10-06T02:58:58Z",
+                "open_issues": 10316,
                 "owner": "golang",
                 "repo": "go",
-                "stars": 139267,
+                "stars": 139292,
                 "topics": [
                   "go",
                   "golang",
@@ -432,8 +432,8 @@
                 "id": 28928522,
                 "language": "C",
                 "license": "GPL-3.0",
-                "last_commit": "2026-10-05T22:53:41Z",
-                "open_issues": 233,
+                "last_commit": "2026-10-06T06:29:39Z",
+                "open_issues": 234,
                 "owner": "wolfSSL",
                 "repo": "wolfssl",
                 "stars": 2958,
@@ -643,7 +643,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-06T00:51:03.379Z",
+    "last_updated": "2026-10-06T10:20:31.189Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of resources about post-quantum cryptography.",
