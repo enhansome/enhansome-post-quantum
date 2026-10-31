@@ -305,9 +305,9 @@ Tencent:
 
 Does not include TLS implementations listed later:
 
-* [Botan](https://github.com/randombit/botan) ⭐ 3,342 | 🐛 255 | 🌐 C++ | 📅 2026-10-30 - C++
-* [CIRCL (Cloudflare Interoperable, Reusable Cryptographic Library)](https://github.com/cloudflare/circl) ⭐ 1,734 | 🐛 70 | 🌐 Go | 📅 2026-10-26 - Go
-* [AWS-LC](https://github.com/aws/aws-lc/blob/main/crypto/fipsmodule/PQREADME.md) ⭐ 856 | 🐛 124 | 🌐 Assembly | 📅 2026-10-30 - Rust bindings in [aws-lc-rs](https://github.com/aws/aws-lc-rs) ⭐ 669 | 🐛 39 | 🌐 Rust | 📅 2026-10-28
+* [Botan](https://github.com/randombit/botan) ⭐ 3,344 | 🐛 258 | 🌐 C++ | 📅 2026-10-31 - C++
+* [CIRCL (Cloudflare Interoperable, Reusable Cryptographic Library)](https://github.com/cloudflare/circl) ⭐ 1,733 | 🐛 70 | 🌐 Go | 📅 2026-10-26 - Go
+* [AWS-LC](https://github.com/aws/aws-lc/blob/main/crypto/fipsmodule/PQREADME.md) ⭐ 857 | 🐛 130 | 🌐 Assembly | 📅 2026-10-30 - Rust bindings in [aws-lc-rs](https://github.com/aws/aws-lc-rs) ⭐ 669 | 🐛 40 | 🌐 Rust | 📅 2026-10-28
 * [Bouncy Castle](https://www.bouncycastle.org/) - Java/C#
 * [Google Tink](https://github.com/tink-crypto) - Multi-language (C++, Go, Java, Obj-C, Python)
 
@@ -315,7 +315,7 @@ Does not include TLS implementations listed later:
 
 C:
 
-* [liboqs](https://github.com/open-quantum-safe/liboqs) ⭐ 3,115 | 🐛 136 | 🌐 C | 📅 2026-10-30 - From [Open Quantum Safe](https://openquantumsafe.org/)
+* [liboqs](https://github.com/open-quantum-safe/liboqs) ⭐ 3,116 | 🐛 138 | 🌐 C | 📅 2026-10-31 - From [Open Quantum Safe](https://openquantumsafe.org/)
 * [mupq/pqm4](https://github.com/mupq/pqm4) ⭐ 461 | 🐛 16 | 🌐 C | 📅 2026-10-23 - PQC library for the ARM Cortex-M4
 * [algorand/falcon](https://github.com/algorand/falcon) ⭐ 51 | 🐛 5 | 🌐 C | 📅 2026-09-30 - Deterministic FALCON implementation
 * [PQ Code Package](https://github.com/pq-code-package) - A Linux Foundation [PQCA](https://pqca.org/) project building high-assurance implementations of standards-track algorithms
@@ -326,7 +326,7 @@ Go:
 
 JavaScript:
 
-* [paulmillr/noble-post-quantum](https://github.com/paulmillr/noble-post-quantum) ⭐ 367 | 🐛 6 | 🌐 TypeScript | 📅 2026-08-31 - ML-KEM, ML-DSA, SLH-DSA, Falcon, and hybrids
+* [paulmillr/noble-post-quantum](https://github.com/paulmillr/noble-post-quantum) ⭐ 368 | 🐛 6 | 🌐 TypeScript | 📅 2026-08-31 - ML-KEM, ML-DSA, SLH-DSA, Falcon, and hybrids
 
 .NET:
 
@@ -335,8 +335,8 @@ JavaScript:
 Rust:
 
 * [orion-rs/orion](https://github.com/orion-rs/orion) ⭐ 722 | 🐛 9 | 🌐 Rust | 📅 2026-10-29 - ML-KEM, ML-DSA
-* [RustCrypto/signatures](https://github.com/RustCrypto/signatures) ⭐ 668 | 🐛 38 | 🌐 Rust | 📅 2026-10-29 - ML-DSA, SLH-DSA, LMS
-* [RustCrypto/KEMs](https://github.com/RustCrypto/KEMs) ⭐ 121 | 🐛 26 | 🌐 Rust | 📅 2026-10-29 - ML-KEM, FrodoKem
+* [RustCrypto/signatures](https://github.com/RustCrypto/signatures) ⭐ 668 | 🐛 36 | 🌐 Rust | 📅 2026-10-31 - ML-DSA, SLH-DSA, LMS
+* [RustCrypto/KEMs](https://github.com/RustCrypto/KEMs) ⭐ 121 | 🐛 25 | 🌐 Rust | 📅 2026-10-31 - ML-KEM, FrodoKem
 * [libcrux](https://crates.io/crates/libcrux) - Formally verified code
 
 Zig:
@@ -346,9 +346,9 @@ Zig:
 
 ### TLS implementations with PQC support
 
-* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 139,458 | 🐛 9,847 | 🌐 Go | 📅 2026-10-30
+* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 139,567 | 🐛 9,854 | 🌐 Go | 📅 2026-10-31
 * [aws/s2n-tls](https://github.com/aws/s2n-tls/) ⭐ 4,785 | 🐛 309 | 🌐 C | 📅 2026-10-30
-* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,984 | 🐛 231 | 🌐 C | 📅 2026-10-30
+* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,984 | 🐛 229 | 🌐 C | 📅 2026-10-30
 * [BoringSSL](https://boringssl.googlesource.com/boringssl)
 * [OpenSSL](https://www.openssl.org/)
 
@@ -428,7 +428,7 @@ Zcash:
 
 ## Other resources
 
-* [awesome-quantum-software](https://github.com/qosf/awesome-quantum-software) ⭐ 2,420 | 🐛 18 | 📅 2026-09-24
+* [awesome-quantum-software](https://github.com/qosf/awesome-quantum-software) ⭐ 2,422 | 🐛 18 | 📅 2026-09-24
 * [Awesome PQC Resources](https://github.com/bro256/Awesome-PQC-Resources) ⭐ 51 | 🐛 1 | 📅 2026-10-28
 * [PQ Readiness Index](https://github.com/xuxu298/PQReadinessIndex) ⭐ 3 | 🐛 0 | 📅 2026-10-02 - Active TLS 1.3 probes of a fixed 350-host list, sector aggregates and open methodology
 * [\[PQ\]probe](https://pqprobe.com/app)
@@ -440,4 +440,4 @@ Zcash:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-30._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-31._
