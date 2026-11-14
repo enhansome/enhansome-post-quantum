@@ -225,7 +225,7 @@ Apple:
 
 AWS:
 
-* [s2n-tls PQC implementation](https://github.com/aws/s2n-tls/tree/main/pq-crypto) ⭐ 4,788 | 🐛 310 | 🌐 C | 📅 2026-11-13
+* [s2n-tls PQC implementation](https://github.com/aws/s2n-tls/tree/main/pq-crypto) ⭐ 4,789 | 🐛 311 | 🌐 C | 📅 2026-11-13
 * [AWS KMS post-quantum TLS](https://aws.amazon.com/blogs/security/post-quantum-tls-now-supported-in-aws-kms/)
 * [AWS PQC Initiative](https://aws.amazon.com/security/post-quantum-cryptography/)
 * [AWS post-quantum cryptography migration plan](https://aws.amazon.com/blogs/security/aws-post-quantum-cryptography-migration-plan/)
@@ -306,9 +306,9 @@ Tencent:
 
 Does not include TLS implementations listed later:
 
-* [Botan](https://github.com/randombit/botan) ⭐ 3,351 | 🐛 196 | 🌐 C++ | 📅 2026-11-13 - C++
-* [CIRCL (Cloudflare Interoperable, Reusable Cryptographic Library)](https://github.com/cloudflare/circl) ⭐ 1,744 | 🐛 68 | 🌐 Go | 📅 2026-11-03 - Go
-* [AWS-LC](https://github.com/aws/aws-lc/blob/main/crypto/fipsmodule/PQREADME.md) ⭐ 865 | 🐛 103 | 🌐 Assembly | 📅 2026-11-13 - Rust bindings in [aws-lc-rs](https://github.com/aws/aws-lc-rs) ⭐ 676 | 🐛 47 | 🌐 Rust | 📅 2026-11-12
+* [Botan](https://github.com/randombit/botan) ⭐ 3,352 | 🐛 192 | 🌐 C++ | 📅 2026-11-14 - C++
+* [CIRCL (Cloudflare Interoperable, Reusable Cryptographic Library)](https://github.com/cloudflare/circl) ⭐ 1,743 | 🐛 68 | 🌐 Go | 📅 2026-11-03 - Go
+* [AWS-LC](https://github.com/aws/aws-lc/blob/main/crypto/fipsmodule/PQREADME.md) ⭐ 865 | 🐛 116 | 🌐 Assembly | 📅 2026-11-13 - Rust bindings in [aws-lc-rs](https://github.com/aws/aws-lc-rs) ⭐ 676 | 🐛 47 | 🌐 Rust | 📅 2026-11-12
 * [Bouncy Castle](https://www.bouncycastle.org/) - Java/C#
 * [Google Tink](https://github.com/tink-crypto) - Multi-language (C++, Go, Java, Obj-C, Python)
 
@@ -327,7 +327,7 @@ Go:
 
 JavaScript:
 
-* [paulmillr/noble-post-quantum](https://github.com/paulmillr/noble-post-quantum) ⭐ 374 | 🐛 5 | 🌐 TypeScript | 📅 2026-08-31 - ML-KEM, ML-DSA, SLH-DSA, Falcon, and hybrids
+* [paulmillr/noble-post-quantum](https://github.com/paulmillr/noble-post-quantum) ⭐ 375 | 🐛 5 | 🌐 TypeScript | 📅 2026-08-31 - ML-KEM, ML-DSA, SLH-DSA, Falcon, and hybrids
 
 .NET:
 
@@ -347,9 +347,9 @@ Zig:
 
 ### TLS implementations with PQC support
 
-* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 139,877 | 🐛 9,864 | 🌐 Go | 📅 2026-11-13
-* [aws/s2n-tls](https://github.com/aws/s2n-tls/) ⭐ 4,788 | 🐛 310 | 🌐 C | 📅 2026-11-13
-* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,988 | 🐛 207 | 🌐 C | 📅 2026-11-13
+* [Go crypto/tls](https://github.com/golang/go/tree/master/src/crypto/tls) ⭐ 139,891 | 🐛 9,896 | 🌐 Go | 📅 2026-11-14
+* [aws/s2n-tls](https://github.com/aws/s2n-tls/) ⭐ 4,789 | 🐛 311 | 🌐 C | 📅 2026-11-13
+* [wolfSSL](https://github.com/wolfSSL/wolfssl) ⭐ 2,987 | 🐛 208 | 🌐 C | 📅 2026-11-14
 * [BoringSSL](https://boringssl.googlesource.com/boringssl)
 * [OpenSSL](https://www.openssl.org/)
 
@@ -370,7 +370,7 @@ Algorand:
 
 Bitcoin:
 
-* [BIP-?: SHRINCS: A Compact Hash-Based Signature Scheme](https://github.com/SHRINCS/shrincs-bip/blob/main/SHRINCS.md) ⭐ 23 | 🐛 25 | 🌐 Python | 📅 2026-11-10
+* [BIP-?: SHRINCS: A Compact Hash-Based Signature Scheme](https://github.com/SHRINCS/shrincs-bip/blob/main/SHRINCS.md) ⭐ 23 | 🐛 27 | 🌐 Python | 📅 2026-11-14
 * [BIP-360: Pay-to-Merkle-Root (P2MR)](https://bip360.org/)
 * [BIP-361: Post Quantum Migration and Legacy Signature Sunset](https://www.bip361.org/)
 * [Lattice-based Signature Schemes for Bitcoin](https://eprint.iacr.org/2026/1628)
@@ -429,8 +429,8 @@ Zcash:
 
 ## Other resources
 
-* [awesome-quantum-software](https://github.com/qosf/awesome-quantum-software) ⭐ 2,427 | 🐛 21 | 📅 2026-09-24
-* [Awesome PQC Resources](https://github.com/bro256/Awesome-PQC-Resources) ⭐ 52 | 🐛 1 | 📅 2026-11-07
+* [awesome-quantum-software](https://github.com/qosf/awesome-quantum-software) ⭐ 2,428 | 🐛 21 | 📅 2026-09-24
+* [Awesome PQC Resources](https://github.com/bro256/Awesome-PQC-Resources) ⭐ 52 | 🐛 1 | 📅 2026-11-14
 * [PQ Readiness Index](https://github.com/xuxu298/PQReadinessIndex) ⭐ 3 | 🐛 0 | 📅 2026-10-02 - Active TLS 1.3 probes of a fixed 350-host list, sector aggregates and open methodology
 * [\[PQ\]probe](https://pqprobe.com/app)
 * [PQC Crypto Registry](https://registry.projecteleven.com/) - By Project Eleven
